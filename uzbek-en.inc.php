@@ -361,17 +361,17 @@ $_lang['RenewErrorNoSrok'] = 'Uzaytirish muddati ko\'rsatilmadi.';
 ##################### billing.php :: partner
 #####################################################################################
 
-$_lang['PartnerTitle'] = 'Partner program';
+$_lang['PartnerTitle'] = 'Hamkorlik dasturi';
 $_lang['PartnerMoneyOut'] = 'Claim money from partner account:';
 $_lang['PartnerMoneyOutSuccess'] = 'Your payment request has been successfully sent to administration. Please wait for the transfer.';
-$_lang['PartnerPartnerSchet'] = 'Your partner account';
-$_lang['PartnerPartnerLink'] = 'Your partner link';
+$_lang['PartnerPartnerSchet'] = 'Hamkorlik dasturidagi hisobingiz holati';
+$_lang['PartnerPartnerLink'] = 'Do\'stlaringizni taklif etish uchun havola';
 $_lang['PartnerZakazatVivod'] = 'Claim payout';
-$_lang['PartnerSumma'] = 'Amount';
-$_lang['PartnerSposobVivoda'] = 'Payment method';
+$_lang['PartnerSumma'] = 'Miqdori';
+$_lang['PartnerSposobVivoda'] = 'To\'lov tizimi';
 $_lang['PartnerPurse'] = 'Account/Wallet number';
 $_lang['PartnerZakazatVivodButton'] = 'Claim payment';
-$_lang['PartnerOurBanners'] = 'Our banners';
+$_lang['PartnerOurBanners'] = 'Reklama bannerlari';
 $_lang['PartnerErrorMinOut'] = 'Payout amount cannot be less than';
 $_lang['PartnerErrorNoMoneyOnPartner'] = 'Insufficient funds on partner account.';
 $_lang['PartnerErrorNoPayMethod'] = 'Payment method not specified.';
