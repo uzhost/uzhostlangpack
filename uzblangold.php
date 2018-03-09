@@ -199,7 +199,7 @@ $_lang['ProfileNewPassword'] = 'Yangi parol';
 $_lang['ProfileUserSettings'] = 'Foydalanuvchi sozlamalari';
 $_lang['ProfileCurrency'] = 'Sayt valyutasi';
 $_lang['ProfileDefaultCurrency'] = 'Valyuta';
-$_lang['ProfileNewSubscribe'] = 'Subscribe to newsletter';
+$_lang['ProfileNewSubscribe'] = 'Yangiliklarga a\'zo bo\'ling!';
 
 $_lang['ProfileErrorBadEmail'] = 'Noto\'g\'ri email.';
 $_lang['ProfileErrorYouCanWorkWithoutProfile'] = 'Diqqat! Profil ma\'lumotlari to\'ldirilmaguncha shaxsiy kabinetdan foydalana olmaysiz.';
@@ -211,92 +211,105 @@ $_lang['ProfileErrorFields'] = 'Ushbu maydonlarda xatolik mavjud';
 
 $_lang['OrdersTitle'] = 'Buyurtmalar';
 $_lang['OrdersDeleteSuccess'] = 'Buyurtma va unga bog\'liq hisoblar muvaffaqiyatli o\'chirildi.';
-$_lang['OrdersErrorCantDelete'] = 'You cannot delete this order.';
-$_lang['OrdersAddonsForOrder'] = 'Addons are active';
-$_lang['OrdersNoAddons'] = 'no addons ordered';
-$_lang['OrdersAddonsOrder'] = 'Order addons';
-$_lang['OrdersNoAvailAddons'] = 'No addons.';
-$_lang['OrdersDate'] = 'Date';
-$_lang['OrdersDomain'] = 'Domain';
-$_lang['OrdersTarif'] = 'Plan';
-$_lang['OrdersEnd'] = 'Paid thru';
-$_lang['OrdersLeftDays'] = 'Days remaining';
-$_lang['OrdersDeleteAlert'] = 'Order will be deleted together with all invoices associated with it. Are you sure you want to delete the order?';
-$_lang['OrdersDeleteOrder'] = 'Delete order';
-$_lang['OrdersRenewOrder'] = 'Renew order';
-$_lang['OrdersDownloadFile'] = 'Download attachment';
-$_lang['OrdersAddonOrder'] = 'order';
-$_lang['OrdersChangeTarif'] = 'Change plan';
-$_lang['OrdersTotalOrders'] = 'Total orders';
-$_lang['OrdersOrdersOnPage'] = 'orders on page';
-$_lang['OrdersErrorNoFiles'] = 'This order contains no attachments.';
-$_lang['OrdersErrorNoOrder'] = 'Order not found.';
+$_lang['OrdersErrorCantDelete'] = 'Ushbu buyurtmani bekor qilib bo\'lmaydi.';
+$_lang['OrdersAddonsForOrder'] = 'Faol qo\'shimcha xizmatlar';
+$_lang['OrdersNoAddons'] = 'qo\'shimcha xizmatlar buyurtma qilinmagan';
+$_lang['OrdersAddonsOrder'] = 'Qo\'shimcha xizmatlarga buyurtma berish';
+$_lang['OrdersNoAvailAddons'] = 'Mos qo\'shimcha xizmatlar mavjud emas.';
+$_lang['OrdersDate'] = 'Sana';
+$_lang['OrdersDomain'] = 'Domen';
+$_lang['OrdersTarif'] = 'Tarif';
+$_lang['OrdersEnd'] = 'Amal qilish muddati';
+$_lang['OrdersLeftDays'] = 'Qolgan muddat';
+$_lang['OrdersDeleteAlert'] = 'Buyurtma unga bog\'liq barcha hisoblar bilan birga o\'chiriladi. Rostdan ham buyurtmani bekor qilmoqchimisiz?';
+$_lang['OrdersDeleteOrder'] = 'Buyurtmani bekor qilish';
+$_lang['OrdersRenewOrder'] = 'Muddatini uzaytirish';
+$_lang['OrdersDownloadFile'] = 'Ilovani yuklab olish';
+$_lang['OrdersAddonOrder'] = 'buyurtma qilish';
+$_lang['OrdersChangeTarif'] = 'Tarifni almashtirish';
+$_lang['OrdersTotalOrders'] = 'Jami buyurtmalar';
+$_lang['OrdersOrdersOnPage'] = 'Sahifadagi buyurtmalar';
+
+$_lang['OrdersErrorNoFiles'] = 'Ushbu buyurtmada ilovalar yo\'q.';
+$_lang['OrdersErrorNoOrder'] = 'Buyurtma topilmadi.';
 
 #####################################################################################
 ##################### billing.php :: domains
 #####################################################################################
 
-$_lang['DomainsTitle'] = 'Domains';
-$_lang['DomainsChangeDNSSuccess'] = 'DNS-servers have been successfully changed.';
-$_lang['DomainsDNSFor'] = 'DNS-servers for';
-$_lang['DomainsNS1'] = 'NameServer 1';
-$_lang['DomainsNS2'] = 'NameServer 2';
-$_lang['DomainsNS3'] = 'NameServer 3';
-$_lang['DomainsNS4'] = 'NameServer 4';
-$_lang['DomainsDeleteSuccess'] = 'Domain and all associated invoices have been successfully deleted.';
-$_lang['DomainsDate'] = 'Date';
-$_lang['DomainsDomain'] = 'Domain';
-$_lang['DomainsEnd'] = 'Paid thru';
-$_lang['DomainsLeftDays'] = 'Days remaining';
-$_lang['DomainsChangeDNS'] = 'Change DNS-servers';
-$_lang['DomainsDeleteAlert'] = 'Domain will be deleted together with all invoices associated with it. Are you sure you want to delete the domain?';
-$_lang['DomainsDeleteDomain'] = 'Delete domain';
-$_lang['DomainsRenewDomain'] = 'Renew domain';
-$_lang['DomainsDomainsTotal'] = 'Total Domains';
-$_lang['DomainsOnPage'] = 'domains on page';
-$_lang['DomainsErrorChangeDNS'] = 'Unable to change DNS-servers.';
-$_lang['DomainsErrorMin2DNS'] = 'At least two DNS-servers are required.';
-$_lang['DomainsErrorCantGetDNS'] = 'Unable to get DNS-servers.';
-$_lang['DomainsErrorNoLoginForReg'] = 'Settings not configured for';
-$_lang['DomainsErrorZoneNotSupported'] = 'Domain zone not supported by registrar.';
-$_lang['DomainsErrorNoRegistrator'] = 'Domain registrar not specified.';
-$_lang['DomainsErrorNoUanic'] = 'UANIC field not filled and default Nic-handle not specified for';
-$_lang['DomainsErrorautoregDisable'] = 'Auto registration for domain zone disabled.';
-$_lang['DomainsErrorZoneNotFound'] = 'Domain zone not found.';
-$_lang['DomainsErrorDomainOrdersNotFound'] = 'Domain order not found';
-$_lang['DomainsErrorUserNotFound'] = 'User not found.';
-$_lang['DomainsErrorCantGetValue'] = 'Unable to get value';
-$_lang['BillsTitle'] = 'Invoices';
-$_lang['BillsDeleteSuccess'] = 'Invoice successfully deleted.';
-$_lang['BillsNeOplachenoSchetov'] = 'No paid invoices';
-$_lang['BillsGoto'] = 'Go to';
-$_lang['BillGotoFor'] = 'to pay them';
-$_lang['BillsDate'] = 'Date';
+$_lang['DomainsTitle'] = 'Domenlar';
+$_lang['DomainsChangeDNSSuccess'] = 'DNS-server muvaffaqiyatli o\'zgartirildi.';
+$_lang['DomainsDNSFor'] = 'DNS-serverlar';
+$_lang['DomainsNS1'] = 'DNS 1';
+$_lang['DomainsNS2'] = 'DNS 2';
+$_lang['DomainsNS3'] = 'DNS 3';
+$_lang['DomainsNS4'] = 'DNS 4';
+$_lang['DomainsDeleteSuccess'] = 'Domen va unga bog\'liq barcha hisoblar o\'chirildi.';
+$_lang['DomainsDate'] = 'Sana';
+$_lang['DomainsDomain'] = 'Domen';
+$_lang['DomainsEnd'] = 'Amal qilish muddati';
+$_lang['DomainsLeftDays'] = 'Qolgan vaqti';
+$_lang['DomainsChangeDNS'] = 'DNS-serverni o\'zgartirish';
+$_lang['DomainsDeleteAlert'] = 'Domen unga bog\'liq barcha hisoblar bilan birga o\'chiriladi. Rostdan ham domenni o\'chirmoqchimisiz?';
+$_lang['DomainsDeleteDomain'] = 'Domenni o\'chirish';
+$_lang['DomainsRenewDomain'] = 'Domen muddatini uzaytirish';
+$_lang['DomainsDomainsTotal'] = 'Barcha domenlar';
+$_lang['DomainsOnPage'] = 'Sahifadagi domenlar';
+
+$_lang['DomainsErrorChangeDNS'] = 'DNS-serverni o\'zgartirib bo\'lmadi.';
+$_lang['DomainsErrorMin2DNS'] = 'Kamida ikkita DNS-server ko\'rsatilishi shart.';
+$_lang['DomainsErrorCantGetDNS'] = 'DNS-serverni tekshirib bo\'lmadi.';
+$_lang['DomainsErrorNoLoginForReg'] = 'Sozlamalar sozlanmagan';
+$_lang['DomainsErrorZoneNotSupported'] = 'Registrator bu domenni qo\'llamaydi.';
+$_lang['DomainsErrorNoRegistrator'] = 'Domen registrator tanlanmadi.';
+$_lang['DomainsErrorNoUanic'] = 'UANIC maydoni to\'ldirilmagan va odatiy Nic-handle ko\'rsatilmagan';
+$_lang['DomainsErrorautoregDisable'] = 'Ushbu domen hududi uchun avto ro\'yhatga olish o\'chirilgan.';
+$_lang['DomainsErrorZoneNotFound'] = 'Domen hududi topilmadi.';
+$_lang['DomainsErrorDomainOrdersNotFound'] = 'Domenga buyurtma topilmadi';
+$_lang['DomainsErrorUserNotFound'] = 'Foydalanuvchi topilmadi.';
+$_lang['DomainsErrorCantGetValue'] = 'Qiymat aniqlanmadi';
+
+#####################################################################################
+##################### billing.php :: bills
+#####################################################################################
+
+$_lang['BillsTitle'] = 'Hisoblar';
+$_lang['BillsDeleteSuccess'] = 'Hisob o\'chirildi.';
+$_lang['BillsNeOplachenoSchetov'] = 'To\'langan hisoblar mavjud emas';
+$_lang['BillsGoto'] = 'To\'lash uchun';
+$_lang['BillGotoFor'] = 'hisobga o\'ting';
+$_lang['BillsDate'] = 'Sana';
 $_lang['BillsBillNo'] = '№';
-$_lang['BillsTarif'] = 'Plan';
-$_lang['BillsDomain'] = 'Domain';
-$_lang['BillsCost'] = 'Price';
+$_lang['BillsTarif'] = 'Tarif';
+$_lang['BillsDomain'] = 'Domen';
+$_lang['BillsCost'] = 'Narxi';
 $_lang['BillsSumma'] = 'Amount';
-$_lang['BillsStatus'] = 'Status';
-$_lang['BillsPay'] = 'Pay';
-$_lang['BillsChangeTarif'] = 'change plan';
-$_lang['BillsOrderedAddons'] = 'Addons ordered';
-$_lang['BilldOrderAddons'] = 'Order addons';
-$_lang['BillsPayBill'] = 'Pay the invoice';
-$_lang['BillsDeleteBillAlert'] = 'Are you sure you want to delete the invoice?';
-$_lang['BillsDeleteBill'] = 'Delete invoice';
-$_lang['BillsBillByAdmin'] = 'Invoice created by admin';
-$_lang['BillsAddFunds'] = 'Add funds';
-$_lang['BillsTotalBills'] = 'Total invoices';
-$_lang['BillsBillsPerPage'] = 'invoices on page';
+$_lang['BillsStatus'] = 'Holati';
+$_lang['BillsPay'] = 'To\'lash';
+$_lang['BillsChangeTarif'] = 'tarifni o\'zgartirish';
+$_lang['BillsOrderedAddons'] = 'Qo\'shimcha xizmatlar';
+$_lang['BilldOrderAddons'] = 'Qo\'shimcha xizmatlar qo\'shish';
+$_lang['BillsPayBill'] = 'Hisobni to\'lash';
+$_lang['BillsDeleteBillAlert'] = 'Hisobni o\'chirishga ishonchingiz komilmi?';
+$_lang['BillsDeleteBill'] = 'Hisobni o\'chirish';
+$_lang['BillsBillByAdmin'] = 'Hisob ma\'muriyat tomonidan qo\'yilgan';
+$_lang['BillsAddFunds'] = 'Ichki balansni to\'ldirish';
+$_lang['BillsTotalBills'] = 'Jami hisoblar';
+$_lang['BillsBillsPerPage'] = 'Sahifadagi hisoblar';
+
+
+#####################################################################################
+##################### billing.php :: pay
+#####################################################################################
+
 $_lang['PayTitle'] = 'Pay invoice №';
 $_lang['PayGoto'] = 'Go to';
-$_lang['PayGotoFor'] = 'fill the profile';
-$_lang['PayNullBill'] = 'Null invoice';
-$_lang['PayBillPaySuccess'] = 'Invoice successfully paid.';
-$_lang['PayOrderCreateSuccess'] = 'Order successfully placed.';
-$_lang['PayForTarifChange'] = 'To change your plan';
-$_lang['PayNeedBillPay'] = 'You need to pay the invoice.';
+$_lang['PayGotoFor'] = 'profil ma\'lumotlarini to\'ldiring';
+$_lang['PayNullBill'] = 'Nol hisob';
+$_lang['PayBillPaySuccess'] = 'Hisob muvaffaqiyatli to\'landi.';
+$_lang['PayOrderCreateSuccess'] = 'Buyurtma ro\'yhatga olindi.';
+$_lang['PayForTarifChange'] = 'Tarifni o\'zgartirish uchun';
+$_lang['PayNeedBillPay'] = 'Siz hisobni to\'lashingiz kerak.';
 $_lang['PayForPayGoto'] = 'To pay the invoice you will need to visit merchant website. To do so, please press "Pay" button below:';
 $_lang['PaySokraschenieRubl'] = 'rub.';
 $_lang['PayBillCreateEasyPaySuccess'] = 'Invoice for the EasyPay system has been successfully sent to your wallet';
@@ -317,6 +330,7 @@ $_lang['PayMinBillSummEasyPay'] = 'Minimum amount to pay via EasyPay is - 1 BYN.
 $_lang['PayGetKvitansiya'] = 'Get receipt';
 $_lang['PayGetSchetFaktura'] = 'Get invoice for legal entities';
 $_lang['PayNaSchetu'] = 'Your balance';
+
 $_lang['PayErrorNoOrgOrPhoneInProfile'] = 'You cannot get an invoice for legal entities because your profile is missing the Organization and/or Phone information.';
 $_lang['PayErrorNoProfileWithPassport'] = 'Warning! You cannot pay the invoice until you completely fill out your profile, including your passport info.';
 $_lang['PayErrorNoProfile'] = 'Warning! You cannot pay the invoice until you fill out your profile, excluding your passport information.';
@@ -325,15 +339,28 @@ $_lang['PayErrorPartnerOff'] = 'We are sorry, partner program is currently disab
 $_lang['PayErrorNoMoneyOnBalance'] = 'Insufficient funds on your internal account.';
 $_lang['PayErrorPurseNeed'] = 'specify your EasyPay wallet (8 digits)';
 $_lang['PayErrorBillCreateEasyPayAlready'] = 'An EasyPay invoice has been sent to you already';
-$_lang['RenewTitle'] = 'Order renewal';
-$_lang['RenewTitleDomain'] = 'Domain renewal';
-$_lang['RenewDomain'] = 'Domain';
-$_lang['RenewNaSrok'] = 'Term';
-$_lang['RenewYear'] = 'year';
-$_lang['RenewTarif'] = 'Plan';
-$_lang['RenewAddons'] = 'Addons';
-$_lang['RenewRenew'] = 'Renew';
-$_lang['RenewErrorNoSrok'] = 'Renewal term not specified.';
+
+
+#####################################################################################
+##################### billing.php :: renew & renewdomain
+#####################################################################################
+
+$_lang['RenewTitle'] = 'Muddatini uzaytirish';
+$_lang['RenewTitleDomain'] = 'Domen muddatini uzaytirish';
+$_lang['RenewDomain'] = 'Domen';
+$_lang['RenewNaSrok'] = 'Muddati';
+$_lang['RenewYear'] = 'yil';
+$_lang['RenewTarif'] = 'Tarif';
+$_lang['RenewAddons'] = 'Qo\'shimcha xizmatlar';
+$_lang['RenewRenew'] = 'Muddatini uzaytirish';
+
+$_lang['RenewErrorNoSrok'] = 'Uzaytirish muddati ko\'rsatilmadi.';
+
+
+#####################################################################################
+##################### billing.php :: partner
+#####################################################################################
+
 $_lang['PartnerTitle'] = 'Partner program';
 $_lang['PartnerMoneyOut'] = 'Claim money from partner account:';
 $_lang['PartnerMoneyOutSuccess'] = 'Your payment request has been successfully sent to administration. Please wait for the transfer.';
@@ -350,6 +377,12 @@ $_lang['PartnerErrorNoMoneyOnPartner'] = 'Insufficient funds on partner account.
 $_lang['PartnerErrorNoPayMethod'] = 'Payment method not specified.';
 $_lang['PartnerNoPurse'] = 'Account/Wallet number not specified.';
 $_lang['PartnerErrorPartnerOff'] = 'We are sorry, partner program is currently disabled.';
+
+
+#####################################################################################
+##################### billing.php :: tickets
+#####################################################################################
+
 $_lang['TicketsTitle'] = 'Tickets';
 $_lang['TicketsDeleteSuccess'] = 'Ticket successfully deleted.';
 $_lang['TicketsGotoTicketsList'] = 'go to tickets list';
@@ -384,15 +417,28 @@ $_lang['TicketsErrorSubject'] = 'Subject of your ticket not specified.';
 $_lang['TicketsErrorPriority'] = 'Priority of ticket not set.';
 $_lang['TicketsErrorMessage'] = 'Ticket body missing.';
 $_lang['TicketsErrorNoTicket'] = 'Ticket not found. It might have been deleted.';
+
+
+#####################################################################################
+##################### billing.php :: changetarif
+#####################################################################################
+
 $_lang['ChangeTitle'] = 'Change plan';
 $_lang['ChangeChangeTarifSuccess'] = 'Plan changed successfully.';
 $_lang['ChangeErrorChange'] = 'Unable to change plan on server.';
 $_lang['ChangeDomain'] = 'Domain';
 $_lang['ChangeTarif'] = 'Plan';
 $_lang['ChangeNewTarif'] = 'New plan';
+
 $_lang['ChangeErrorNoNewTarif'] = 'Plan not selected.';
 $_lang['ChangeErrorNoAccessTarif'] = 'You won\'t be able to switch to the selected plan.';
 $_lang['ChangeErrorNoOrder'] = 'Order not found.';
+
+
+#####################################################################################
+##################### billing.php :: catalog
+#####################################################################################
+
 $_lang['CatTitle'] = 'Site catalogue';
 $_lang['CatSiteDeleteSuccess'] = 'Site deleted from catalogue successfully.';
 $_lang['CatSiteIP'] = 'Site IP-address';
