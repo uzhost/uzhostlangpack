@@ -378,7 +378,6 @@ $_lang['PartnerErrorNoPayMethod'] = 'Payment method not specified.';
 $_lang['PartnerNoPurse'] = 'Account/Wallet number not specified.';
 $_lang['PartnerErrorPartnerOff'] = 'We are sorry, partner program is currently disabled.';
 
-
 #####################################################################################
 ##################### billing.php :: tickets
 #####################################################################################
@@ -418,7 +417,6 @@ $_lang['TicketsErrorPriority'] = 'Priority of ticket not set.';
 $_lang['TicketsErrorMessage'] = 'Ticket body missing.';
 $_lang['TicketsErrorNoTicket'] = 'Ticket not found. It might have been deleted.';
 
-
 #####################################################################################
 ##################### billing.php :: changetarif
 #####################################################################################
@@ -433,7 +431,6 @@ $_lang['ChangeNewTarif'] = 'New plan';
 $_lang['ChangeErrorNoNewTarif'] = 'Plan not selected.';
 $_lang['ChangeErrorNoAccessTarif'] = 'You won\'t be able to switch to the selected plan.';
 $_lang['ChangeErrorNoOrder'] = 'Order not found.';
-
 
 #####################################################################################
 ##################### billing.php :: catalog
@@ -458,20 +455,34 @@ $_lang['CatDeleteAlert'] = 'Are you sure you want to delete site from catalogue?
 $_lang['CatDelete'] = 'Delete';
 $_lang['CatTotalSites'] = 'Total sites';
 $_lang['CatAddSite'] = 'Add site to catalogue';
+
 $_lang['CatErrorSite'] = 'Site name not specified.';
 $_lang['CatErrorDomain'] = 'Site domain not specified.';
 $_lang['CatErrorDomainSymbol'] = 'Prohibited symbols in domain name.';
 $_lang['CatErrorOpisanie'] = 'Site description not provided.';
 $_lang['CatErrorIP'] = 'Unable to obtain site IP-address';
+
+#####################################################################################
+##################### billing.php :: addfunds
+#####################################################################################
+
 $_lang['FundsTitle'] = 'Add funds';
 $_lang['FundsMinSumm'] = 'Minimal top-up amount';
 $_lang['FundsSumm'] = 'Top-up amount';
 $_lang['FundsGotoPay'] = 'Pay the invoice';
+
+#####################################################################################
+##################### billing.php :: catalogsregform
+#####################################################################################
+
 $_lang['CatalogTitle'] = 'Register site in catalogues';
 $_lang['CatalogSendSuccess'] = 'Your request has been successfully submitted. Administration will contact you shortly.';
+
 $_lang['CatalogInfo'] = 'To register your site in catalogs and search engines, please fill out the form below.<br>The <b>*</b> sign indicates mandatory fields.';
+
 $_lang['CatalogCanInput'] = 'can input';
 $_lang['CatalogSymbols'] = 'symbols';
+
 $_lang['CatalogMainTematika'] = 'Site is mainly related to';
 $_lang['CatalogDopTematika'] = 'In addition site is related to';
 $_lang['CatalogDopTematikaComment'] = 'Please select all categories that apply; you can select several categories by pressing down <b>ctrl</b>';
@@ -511,6 +522,7 @@ $_lang['CatalogFax'] = 'Fax';
 $_lang['CatalogComments'] = 'Comments';
 $_lang['CataloCommentsComment'] = 'Payment method, date, payment amount etc.<br>RootPanel order number (if any).<br> In other words, information needed to verify your payment.';
 $_lang['CatalogCleanFields'] = 'Clear all fields';
+
 $_lang['CatalogTem01'] = 'Auto/Moto';
 $_lang['CatalogTem02'] = 'Administration';
 $_lang['CatalogTem03'] = 'Banks';
@@ -574,6 +586,7 @@ $_lang['CatalogTem60'] = 'Electronic equipment';
 $_lang['CatalogTem61'] = 'Unix systems';
 $_lang['CatalogTem62'] = 'Legal services';
 $_lang['CatalogTem63'] = 'Erotics';
+
 $_lang['CatalogReg01'] = 'Altai Krai';
 $_lang['CatalogReg02'] = 'Amur oblast';
 $_lang['CatalogReg03'] = 'Arkhangelsk oblast';
@@ -660,8 +673,13 @@ $_lang['CatalogReg83'] = 'Estonia';
 $_lang['CatalogReg84'] = 'Ukraine';
 $_lang['CatalogReg85'] = 'Georgia';
 $_lang['CatalogReg86'] = 'Non-CIS countries';
-$_lang['FeedTitle'] = 'Contacts';
-$_lang['FeedSendSuccess'] = 'Message successfully sent.';
+
+#####################################################################################
+##################### billing.php :: feedback
+#####################################################################################
+
+$_lang['FeedTitle'] = 'Aloqa';
+$_lang['FeedSendSuccess'] = 'Xabar muvaffaqiyatli jo\'natildi.';
 $_lang['FeedContactViaICQ'] = 'Contact via ICQ';
 $_lang['FeedContactPhones'] = 'Phone numbers';
 $_lang['FeedName'] = 'Name';
@@ -672,12 +690,18 @@ $_lang['FeedManager'] = 'Manager';
 $_lang['FeedSupport'] = 'Tech support';
 $_lang['FeedSubject'] = 'Subject';
 $_lang['FeedMessage'] = 'Message';
+
 $_lang['FeedErrorSupportOnlyViaTickets'] = 'Customer support is done via a ticket system!';
 $_lang['FeedErrorNoName'] = 'Please specify your name.';
 $_lang['FeedErrorBadEmail'] = 'Invalid email address specified.';
 $_lang['FeedErrorNoOtdel'] = 'Please specify department you would like to contact.';
 $_lang['FeedErrorNoSubject'] = 'Please specify the subject.';
 $_lang['FeedErrorNoMessage'] = 'Please enter your message.';
+
+#####################################################################################
+##################### billing.php :: forgotpass
+#####################################################################################
+
 $_lang['ForgotTitle'] = 'Restore password';
 $_lang['ForgotSuccess'] = 'Password updated successfully. Now you can';
 $_lang['ForgotEnterToBilling'] = 'access billing';
@@ -686,11 +710,22 @@ $_lang['ForgotReEnterNewPassword'] = 'Confirm new password';
 $_lang['ForgotPrefixDlya'] = 'for';
 $_lang['ForgotInfoSended'] = 'We have emailed you the information explaining how to restore your password.';
 $_lang['ForgorInputYourNameOrEmail'] = 'Please enter your login or email address';
+
 $_lang['ForgotErrorNameOrEmail'] = 'Please specify your login or email address.';
 $_lang['ForgotErrorNoUserWithNameOrEmail'] = 'No user with such login or email found in the system.';
-$_lang['NewsTitle'] = 'News';
-$_lang['NewsSeeAllNews'] = 'View all the news...';
-$_lang['NewsErrorNotFound'] = 'News not found.';
+
+#####################################################################################
+##################### billing.php :: news
+#####################################################################################
+
+$_lang['NewsTitle'] = 'Yangiliklar';
+$_lang['NewsSeeAllNews'] = 'Barcha yangiliklarni ko\'rish...';
+$_lang['NewsErrorNotFound'] = 'Yangiliklar mavjud emas.';
+
+#####################################################################################
+##################### billing.php :: order
+#####################################################################################
+
 $_lang['OrderTitle'] = 'Place order';
 $_lang['OrderFreeDomainInZone'] = 'Free domain during on year in zone';
 $_lang['OrderComment'] = 'Comment';
@@ -801,20 +836,30 @@ $_lang['OrderErrorNoPrymaryNS'] = 'Please specify your primary DNS-server.';
 $_lang['OrderErrorNoSecondaryNS'] = 'Please specify your secondary DNS-server.';
 $_lang['OrderErrorNoOneOfNS'] = 'None of the domains contains either a primary or a secondary DNS server.';
 $_lang['OrderErrorNetSrokovZakaza'] = 'Available terms of order missing. Please select a different plan.';
+
+#####################################################################################
+##################### billing.php :: clients
+#####################################################################################
+
 $_lang['SitesTitle'] = 'Sites of our customers';
 $_lang['SitesCatalogDisabled'] = 'Site catalogue is disabled.';
-$_lang['WhoisTitle'] = 'Check domain availability';
-$_lang['WhoisDomainName'] = 'Domain name';
-$_lang['WhoisSelectZones'] = 'select zones';
-$_lang['WhoisSelectZone'] = 'select a zone';
-$_lang['WhoisCheckButton'] = 'Check';
+
+#####################################################################################
+##################### billing.php :: whois
+#####################################################################################
+
+$_lang['WhoisTitle'] = 'Domen mavjudligini tekshirish';
+$_lang['WhoisDomainName'] = 'Domen nomi';
+$_lang['WhoisSelectZones'] = 'domen hududlarini tanlang';
+$_lang['WhoisSelectZone'] = 'domen hududini tanlang';
+$_lang['WhoisCheckButton'] = 'Tekshirish';
 $_lang['WhoisCheckResult'] = 'Availability check';
 $_lang['WhoisOrderHostAndDomain'] = 'order hosting and domain';
 $_lang['WhoisOrderDomain'] = 'order domain';
 $_lang['WhoisOrderHost'] = 'order hosting';
-$_lang['WhoisAvailError'] = 'error';
-$_lang['WhoisAvailFree'] = 'available';
-$_lang['WhoisAvailNotFree'] = 'taken';
+$_lang['WhoisAvailError'] = 'xatolik';
+$_lang['WhoisAvailFree'] = 'bo\'sh';
+$_lang['WhoisAvailNotFree'] = 'band';
 $_lang['WhoisDomainNotActive'] = 'domain zone inactive';
 $_lang['WhoisWhois'] = 'whois';
 $_lang['WhoisFreeDomainsInOtherZones'] = 'Available domains in other domain zones';
@@ -823,6 +868,11 @@ $_lang['WhoisAboutDomainLength'] = 'Even if one- or two-character domain name is
 $_lang['WhoisDomainInfo'] = 'Information about domain';
 $_lang['WhoisErrorDomain'] = 'Please specify a domain name.';
 $_lang['WhoisErrorZone'] = 'Please specify a domain zone.';
+
+#####################################################################################
+##################### Countries
+#####################################################################################
+
 $_lang['Country']['AF'] = 'Afghanistan';
 $_lang['Country']['AX'] = 'Aland Island';
 $_lang['Country']['AL'] = 'Albania';
@@ -1064,6 +1114,11 @@ $_lang['Country']['EH'] = 'West Sahara';
 $_lang['Country']['YE'] = 'Yemen';
 $_lang['Country']['ZM'] = 'Zambia';
 $_lang['Country']['ZW'] = 'Zimbabwe';
+
+#####################################################################################
+##################### v1.6.0
+#####################################################################################
+
 $_lang['PaySokraschenieGrivna'] = 'UAH';
 $_lang['PayPortmoneCheckBill'] = 'If you have paid the invoice via Portmone, press the "Check payment status" button.';
 $_lang['PayErrorBadSumm'] = 'Incorrect payment amount';
@@ -1072,6 +1127,11 @@ $_lang['OrderAddonsOs'] = 'Operating system';
 $_lang['OrderAddonsPanel'] = 'Control panel';
 $_lang['ProfileCodeWord'] = 'Code word';
 $_lang['ProfileCodeWordComment'] = 'Is used to verify a customer by customer support. <BR>It can be set only once - not available for viewing or editing afterwards.';
+
+#####################################################################################
+##################### v1.6.1
+#####################################################################################
+
 $_lang['OrderZoneSmall'] = 'domain zone';
 $_lang['OrderFrom'] = 'from';
 $_lang['ZonesTotal'] = 'Total domain zones';
@@ -1082,6 +1142,11 @@ $_lang['OrderSmallOrder'] = 'order';
 $_lang['OrdersPrintDogovor'] = 'Print agreement';
 $_lang['ProfileEdrpou'] = 'EDRPOU';
 $_lang['ProfileEdrpouComment'] = 'Code in State Registry of Companies and Enterprises (for Ukraine only).<BR>Example: 23542312';
+
+#####################################################################################
+##################### v1.6.2
+#####################################################################################
+
 $_lang['Language'] = 'Language';
 $_lang['BillingMenuMail'] = 'Mail';
 $_lang['MailLogsTitle'] = 'Mail archive';
