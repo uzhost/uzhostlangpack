@@ -116,9 +116,9 @@ $_lang['BillingEnter'] = 'Kabinetga kirish';
 $_lang['BillingForgotPassword'] = 'Parolni unutdingizmi?';
 
 $_lang['BillingMenu'] = 'Menyu';
-$_lang['BillingMenuBills'] = 'Hisoblar';
-$_lang['BillingMenuOrders'] = 'Buyurtmalar';
-$_lang['BillingMenuDomains'] = 'Domenlar';
+$_lang['BillingMenuBills'] = 'Hisob';
+$_lang['BillingMenuOrders'] = 'Buyurtma';
+$_lang['BillingMenuDomains'] = 'Domen';
 $_lang['BillingMenuProfile'] = 'Profil';
 $_lang['BillingMenuTickets'] = 'Tiket';
 $_lang['BillingMenuPartner'] = 'Hamkor';
@@ -1159,14 +1159,19 @@ $_lang['MailLogsOnPage'] = 'messages on page';
 $_lang['MailLogsDeleteSuccess'] = 'Message deleted successfully.';
 $_lang['MailLogsErrorNoMail'] = 'Message not found. It might have been deleted.';
 $_lang['MailLogsView'] = 'Message';
+
 $_lang['TicketsClosedBySupport'] = 'Ticket closed by customer support.';
 $_lang['PayGotoSMSCoin'] = 'Warning! Tariff of your operator will be added to your subtotal.<BR>If your merchant page does not have your country or operator, it means amount of payment is too big.';
 $_lang['TicketsDisabled'] = 'Ticket system disabled.';
+
 $_lang['ProfileEmail2'] = 'Alternative email';
 $_lang['ProfileErrorBadEmail2'] = 'Invalid alternative email address specified.';
-$_lang['SettinsTitle'] = 'Settings';
-$_lang['BillingMenuSettings'] = 'Settings';
-$_lang['ProfileUserType'] = 'Profile type';
+
+
+
+$_lang['SettinsTitle'] = 'Sozlamalar';
+$_lang['BillingMenuSettings'] = 'Sozlamalar';
+$_lang['ProfileUserType'] = 'Profil turi';
 $_lang['ProfileOfPrivatePredprinimatel'] = 'Private Entrepreneur Profile';
 $_lang['OrderUserPrivatePredprinimatel'] = 'Private Entrepreneur';
 $_lang['OrderDomainOwner'] = 'Domain name owner';
@@ -1289,7 +1294,8 @@ $_lang['CalcSelect'] = 'Please specify what you want to calculate';
 $_lang['CalcGotoOrder'] = 'Proceed to order.';
 $_lang['TicketStatusWait'] = 'pending';
 $_lang['TicketsStatusWait'] = 'pending';
-$_lang['TicketsDepartment'] = 'Department';
+$_lang['TicketsDepartment'] = 'Bo\'lim';
+
 $_lang['TarifsTitle'] = 'Plans';
 $_lang['TarifsCost'] = 'Price';
 $_lang['TarifsCostSetup'] = 'One-time';
