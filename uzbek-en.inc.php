@@ -58,9 +58,9 @@ $_lang['OrderStatusSuspended'] = 'bekor qilingan';
 $_lang['SortAsc'] = 'o\'sish tartibida';
 $_lang['SortDesc'] = 'kamayish tartibida';
 
-$_lang['TicketPriority0'] = 'kam ahamiyatli';
+$_lang['TicketPriority0'] = 'shoshilinch emas';
 $_lang['TicketPriority1'] = 'oddiy';
-$_lang['TicketPriority2'] = 'juda ahamiyatli';
+$_lang['TicketPriority2'] = 'tezkor';
 $_lang['TicketStatusOpen'] = 'ochiq';
 $_lang['TicketStatusClose'] = 'yopiq';
 
@@ -135,7 +135,7 @@ $_lang['BillingMenuAddFunds'] = 'hisobni to\'ldirish';
 #####################################################################################
 
 $_lang['ProfileTitle'] = 'Profil';
-$_lang['ProfileChangeSuccess'] = 'Profile muvaffaqiyatli yangilandi.';
+$_lang['ProfileChangeSuccess'] = 'Profil muvaffaqiyatli yangilandi.';
 $_lang['ProfileNeedFromReg'] = 'Buyurtmani davom ettirish uchun <BR>profilingiz ma\'lumotlarini to\'ldiring.';
 $_lang['ProfileFieldsForAllDomains'] = 'Domen (.uz va .ru domendan tashqari) ro\'yhatga olish uchun , passport ma\'lumotlaridan boshqa barcha maydonlarni to\'ldirish majburiy!';
 $_lang['ProfileFieldsForRuDomain'] = '.Uz va .Ru domenlari uchun passport ma\'lumotlarini ham to\'ldirish majburiy!';
@@ -400,22 +400,22 @@ $_lang['TicketsDate'] = 'Vaqti';
 $_lang['TicketsAddMessage'] = 'Xabar qo\'shish';
 $_lang['TicketsStatusOpen'] = 'faol';
 $_lang['TicketsStatusAll'] = 'barchasi';
-$_lang['TicketsStatusClosed'] = 'yopik';
+$_lang['TicketsStatusClosed'] = 'yopiq';
 $_lang['TicketsYourTickets'] = 'Murojaatlaringiz';
 $_lang['TicketsSubject'] = 'Mavzu';
 $_lang['TicketsTicketReplys'] = 'Javoblar';
 $_lang['TicketsDeleteAlert'] = 'Are you sure you want to delete ticket?';
-$_lang['TicketsDelete'] = 'Delete ticket';
+$_lang['TicketsDelete'] = 'Murojaatni o\'chirish';
 $_lang['TicketsCloseAlert'] = 'Are you sure you want to close ticket?';
-$_lang['TicketsClose'] = 'Close ticket';
-$_lang['TicketsTotalTickets'] = 'Total tickets';
+$_lang['TicketsClose'] = 'Murojaatni yopish';
+$_lang['TicketsTotalTickets'] = 'Barcha murojaatlar';
 $_lang['TicketsShow'] = 'Ko\'rish';
-$_lang['TicketsNewTicket'] = 'New ticket';
-$_lang['TicketsAddTicket'] = 'Add ticket';
-$_lang['TicketsErrorSubject'] = 'Subject of your ticket not specified.';
-$_lang['TicketsErrorPriority'] = 'Priority of ticket not set.';
-$_lang['TicketsErrorMessage'] = 'Ticket body missing.';
-$_lang['TicketsErrorNoTicket'] = 'Ticket not found. It might have been deleted.';
+$_lang['TicketsNewTicket'] = 'Yangi murojaat';
+$_lang['TicketsAddTicket'] = 'Murojaat yaratish';
+$_lang['TicketsErrorSubject'] = 'Murojaat mavzusi ko\'rsatilmadi.';
+$_lang['TicketsErrorPriority'] = 'Murojaat ahamiyatlik darajasi belgilanmadi.';
+$_lang['TicketsErrorMessage'] = 'Murojaat matni topilmadi.';
+$_lang['TicketsErrorNoTicket'] = 'Murojaat topilmadi. Ehtimol, ushbu murojaat o\'chirilgandir.';
 
 #####################################################################################
 ##################### billing.php :: changetarif
@@ -466,10 +466,10 @@ $_lang['CatErrorIP'] = 'Unable to obtain site IP-address';
 ##################### billing.php :: addfunds
 #####################################################################################
 
-$_lang['FundsTitle'] = 'Add funds';
-$_lang['FundsMinSumm'] = 'Minimal top-up amount';
-$_lang['FundsSumm'] = 'Top-up amount';
-$_lang['FundsGotoPay'] = 'Pay the invoice';
+$_lang['FundsTitle'] = 'Hisobni to\'ldirish';
+$_lang['FundsMinSumm'] = 'Eng kamida';
+$_lang['FundsSumm'] = 'Hisobni to\'ldirish';
+$_lang['FundsGotoPay'] = 'Hisobni to\'lash';
 
 #####################################################################################
 ##################### billing.php :: catalogsregform
@@ -702,11 +702,11 @@ $_lang['FeedErrorNoMessage'] = 'Please enter your message.';
 ##################### billing.php :: forgotpass
 #####################################################################################
 
-$_lang['ForgotTitle'] = 'Restore password';
-$_lang['ForgotSuccess'] = 'Password updated successfully. Now you can';
-$_lang['ForgotEnterToBilling'] = 'access billing';
-$_lang['ForgotEnterNewPassword'] = 'Enter new password';
-$_lang['ForgotReEnterNewPassword'] = 'Confirm new password';
+$_lang['ForgotTitle'] = 'Parolni tiklash';
+$_lang['ForgotSuccess'] = 'Parol muvaffaqiyatli yangilandi. Endi Siz';
+$_lang['ForgotEnterToBilling'] = 'shaxsiy kabinetga kirishingiz mumkin';
+$_lang['ForgotEnterNewPassword'] = 'Yangi parolni kiriting';
+$_lang['ForgotReEnterNewPassword'] = 'Yangi parolni takrorlang';
 $_lang['ForgotPrefixDlya'] = 'for';
 $_lang['ForgotInfoSended'] = 'We have emailed you the information explaining how to restore your password.';
 $_lang['ForgorInputYourNameOrEmail'] = 'Please enter your login or email address';
@@ -841,8 +841,8 @@ $_lang['OrderErrorNetSrokovZakaza'] = 'Available terms of order missing. Please 
 ##################### billing.php :: clients
 #####################################################################################
 
-$_lang['SitesTitle'] = 'Sites of our customers';
-$_lang['SitesCatalogDisabled'] = 'Site catalogue is disabled.';
+$_lang['SitesTitle'] = 'Mijozlarimiz';
+$_lang['SitesCatalogDisabled'] = 'Mijozlar sayti bo\'limi yopiq.';
 
 #####################################################################################
 ##################### billing.php :: whois
@@ -1139,7 +1139,7 @@ $_lang['OrderCheckDomainInSelectedZones'] = 'Check domain availability in the se
 $_lang['OrderFreeDomainsInFavoriteZones'] = 'Available domains in popular zones';
 $_lang['OrderFreeDomainsInSelectedZones'] = 'Available domains in selected zones';
 $_lang['OrderSmallOrder'] = 'order';
-$_lang['OrdersPrintDogovor'] = 'Print agreement';
+$_lang['OrdersPrintDogovor'] = 'Shartnomani chop etish';
 $_lang['ProfileEdrpou'] = 'EDRPOU';
 $_lang['ProfileEdrpouComment'] = 'Code in State Registry of Companies and Enterprises (for Ukraine only).<BR>Example: 23542312';
 
