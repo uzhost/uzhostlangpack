@@ -4,6 +4,12 @@
 #                                                                                    #
 #                                  !!! ВНИМАНИЕ !!!                                  #
 #                                                                                    #
+#             Начиная с версии 2.1.7, обновления языкого файла прекращены!           #
+#                                                                                    #
+######################################################################################
+#                                                                                    #
+#                                  !!! ВНИМАНИЕ !!!                                  #
+#                                                                                    #
 #                      !!! НЕ ВНОСИТЕ ИЗМЕНЕНИЯ В ДАННЫЙ ФАЙЛ !!!                    #
 #                                                                                    #
 # Если вы хотите изменить какую-то языковую переменную, создайте в папке _rootlang   #
@@ -1253,9 +1259,8 @@ $_lang['DomainsErrorProfileNotFilled'] = 'Profile is missing some of the require
 $_lang['DomainsErrorRegistratorInactive'] = 'Registrar inactive.';
 $_lang['DomainsChangeProfileTypeError'] = 'Profile type should not be different from the profile type your domain was registered to.';
 $_lang['DomainsWarningUpdateRUSU'] = 'Please note that if domain is registered to a legal entity, name of the entity, TIN code and legal (company) address will not change. If domain was registered to a physical entity, first & last name, password and birth date will not change.';
-$_lang['ProfileEunic'] = 'EUNIC';
-$_lang['OrdersLogin'] = 'login';
-$_lang['OrdersPassword'] = 'password';
+$_lang['OrdersLogin'] = 'Login';
+$_lang['OrdersPassword'] = 'Password';
 $_lang['OrderErrorSSHLoginExists'] = 'SSH login you specified is already taken.';
 $_lang['ProfileDpnic'] = 'DPNIC';
 $_lang['CatSiteImage'] = 'Image';
@@ -1468,7 +1473,7 @@ $_lang['ShopDeleteReasonExpired'] = 'term of order expired and product not renew
 $_lang['OrdersOrderIPsCount'] = 'IP-addresses';
 $_lang['payQiwiKZDetails'] = 'Please pay any amount via QIWI terminals and then pay the invoice via internal balance.<BR><BR><B>Identifier to use in terminal:</b>';
 $_lang['BillsChangeSlots'] = 'changing number of slots';
-$_lang['OrdersChangeSlots'] = 'change number of slots';
+$_lang['OrdersChangeSlots'] = 'Change number of slots';
 $_lang['OrdersSlots'] = 'slots';
 $_lang['PayForSlotsChange'] = 'To change number of slots';
 $_lang['ChangeSlotsTitle'] = 'Change number of slots';
@@ -1919,6 +1924,7 @@ $_lang['ChangeTarifForOrderTitle'] = 'Change plan for order';
 $_lang['DeleteAlert'] = 'Are you sure you want to delete?';
 $_lang['payKassa24kzDetails'] = 'Please pay any amount via Kassa24 terminals and then pay the invoice via internal balance.<BR><BR><B>Identifier to use in terminal:</b>';
 $_lang['ProfileMobileCountryCode'] = 'Cell phone (country code)';
+$_lang['ProfileMobileOperatorCode'] = 'Cell phone (operator code)';
 $_lang['DomainsMassRenew'] = 'Bulk renew';
 $_lang['DomainsMassRenewBillCreated'] = 'Invoice for domain renewal created.';
 $_lang['DomainsMassRenewNoRenew'] = 'Domain renewal is impossible.';
@@ -1941,9 +1947,6 @@ $_lang['SettingsSendEmailEmail2'] = 'Alternative email';
 $_lang['SettingsSendEmailDisabled'] = 'Don`t send';
 $_lang['OrdersServerInfoPort'] = 'Port';
 $_lang['OrdersConnectToServer'] = 'Connect to server';
-$_lang['payAzercellComment'] = 'To pay the invoice please enter your prepaid card number in the section below.<BR><BR><B>Warning!</B>If the card value is less than the invoice amount, the funds will be put to your internal balance. If the card value is greater than the invoice amount, the difference will be credited to your internal balance.';
-$_lang['payAzercellNumber'] = 'Card number';
-$_lang['payAzercellSuccess'] = 'Card number accepted. Please wait, your payment will be processed in the nearest future.';
 $_lang['TicketsFileAttachFileBadName'] = 'invalid file name';
 $_lang['BillingErrorCheckToken'] = 'Failed to validate token.';
 $_lang['OrdersDogovorVLice'] = 'in person';
@@ -2087,5 +2090,50 @@ $_lang['StarrysUslugiDomain'] = 'Delegating a domain name';
 $_lang['OrdersAccessInfo'] = 'Access data';
 $_lang['OrdersAccessLogin'] = 'Login';
 $_lang['OrdersAccessPassword'] = 'Password';
+
+#####################################################################################
+##################### v2.2.1
+#####################################################################################
+
+$_lang['OrderSSLCSRWarning'] = 'If you have not saved the Private Key for the specified CSR, be sure to generate a new CSR code!';
+
+$_lang['OrderErrorAllowOnlyOneOrderByOneUser'] = 'Tariff plan can be ordered only once.';
+$_lang['ErrorAPIHcode27'] = 'Tariff plan can be ordered only once';
+
+$_lang['ProfilePersonalNumber'] = 'Personal ID';
+
+$_lang['DomainsReqTransferAuth'] = 'Get transfer code';
+$_lang['DomainsReqTransferAuthAlert'] = 'The transfer code will be sent to your email. Are you sure you want to receive a new transfer code?';
+$_lang['DomainsUpdateAuthCodeSuccess'] = 'The new transfer code was successfully sent to your email.';
+$_lang['DomainsUpdateAuthCodeSendSuccess'] = 'The request for changing the transfer code was successfully sent to the administration and will be executed in the near future.';
+
+$_lang['ErrorWrongCaptcha2'] = 'Confirm that you are not a robot.';
+
+$_lang['SettingsEdocsEmail'] = 'Email for electronic documents';
+$_lang['ProfileErrorBadEdocsEmail'] = 'The email for electronic documents is incorrect.';
+
+$_lang['regFields']['regPurpose'] = 'Purpose of registration';
+
+$_lang['ButtonResendEmailCode'] = 'Resend';
+
+#####################################################################################
+##################### v2.2.2
+#####################################################################################
+
+$_lang['OrdersReset'] = 'Reset';
+$_lang['OrdersResetAlert'] = 'Are you want to reset server? This forcefully stops it without giving the server operating system time to gracefully stop. This may lead to data loss!';
+$_lang['OrdersResetSuccess'] = 'Reset successfully launched.';
+$_lang['OrdersResetError'] = 'Failed to reset. Please wait until it is done by admin.';
+$_lang['OrdersErrorCantReset'] = 'You cannot perform a reset for this order.';
+$_lang['OrdersServerInfoServerIPv6'] = 'Server IPv6';
+$_lang['SokraschenieTB'] = 'TB';
+$_lang['TrafficOut'] = 'Traffic';
+$_lang['OrdersVncTitle'] = "VNC console";
+$_lang['OrdersVncLink'] = "VNC console";
+$_lang['OrdersGotoVncError'] = "Failed to get data for the VNC connection.";
+
+$_lang['PayPayer'] = 'Payer';
+
+$_lang['ErrorAPIcode62'] = 'Not specified additional fields';
 
 ?>

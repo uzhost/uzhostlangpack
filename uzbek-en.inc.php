@@ -1479,7 +1479,7 @@ $_lang['DomainsErrorProfileNotFilled'] = 'Profile is missing some of the require
 $_lang['DomainsErrorRegistratorInactive'] = 'Registrar inactive.';
 $_lang['DomainsChangeProfileTypeError'] = 'Profile type should not be different from the profile type your domain was registered to.';
 $_lang['DomainsWarningUpdateRUSU'] = 'Please note that if domain is registered to a legal entity, name of the entity, TIN code and legal (business) address will not change. If domain was registered to a physical entity, first & last name, password and birth date will not change.';
-$_lang['ProfileEunic'] = 'EUNIC';
+
 $_lang['OrdersLogin'] = 'Login';
 $_lang['OrdersPassword'] = 'Parol';
 
@@ -2156,6 +2156,7 @@ $_lang['DeleteAlert'] = 'Are you sure you want to delete?';
 $_lang['payKassa24kzDetails'] = 'Please pay any amount via Kassa24 terminals and then pay the invoice via internal account.<BR><BR><B>Identifier to use in terminal:</b>';
 $_lang['ProfileMobileCountryCode'] = 'Cell phone (country code)';
 $_lang['ProfileMobileOperatorCode'] = 'Cell phone (operator code)';
+
 $_lang['DomainsMassRenew'] = 'Bulk renew';
 $_lang['DomainsMassRenewBillCreated'] = 'Invoice for domain renewal created.';
 $_lang['DomainsMassRenewNoRenew'] = 'Domain renewal is impossible.';
