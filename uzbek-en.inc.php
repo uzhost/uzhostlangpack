@@ -15,21 +15,21 @@
 $_lang['Warning'] = 'Diqqat!';
 $_lang['Error'] = 'Xatolik';
 
-$_lang['Required'] = 'Ushbu belgi bilan belgilangan maydonlarni to\'ldirish majburiy';
+$_lang['Required'] = 'Ushbu belgi bilan belgilangan maydonlarni to‘ldirish majburiy';
 
 $_lang['Yes'] = 'ha';
-$_lang['No'] = 'yo\'q';
+$_lang['No'] = 'yo‘q';
 
 $_lang['Pages'] = 'Sahifalar:';
 
 $_lang['Prev'] = 'Ortga';
 $_lang['Next'] = 'Keyingi';
-$_lang['Change'] = 'O\'zgartirish';
-$_lang['Send'] = 'Jo\'natish';
+$_lang['Change'] = 'o‘zgartirish';
+$_lang['Send'] = 'Jo‘natish';
 $_lang['Save'] = 'Saqlash';
 $_lang['Order'] = 'Buyurtma berish';
-$_lang['Pay'] = 'To\'lash';
-$_lang['Add'] = 'Qo\'shish';
+$_lang['Pay'] = 'To‘lash';
+$_lang['Add'] = 'Qo‘shish';
 
 $_lang['Hosting'] = 'Hosting';
 $_lang['Domain'] = 'Domen';
@@ -46,16 +46,16 @@ $_lang['DomainWithout'] = 'Domensiz';
 $_lang['DomainRenew'] = 'Domen muddatini uzaytirish';
 $_lang['DomainWithoutRenew'] = 'Domen muddatini uzaytirmasdan';
 
-$_lang['BillNotPayed'] = 'to\'lanmagan';
-$_lang['BillPayed'] = 'to\'langan';
-$_lang['BillPayedUslovno'] = 'shartli to\'langan';
-$_lang['BillDeleted'] = 'o\'chirilgan';
+$_lang['BillNotPayed'] = 'to‘lanmagan';
+$_lang['BillPayed'] = 'to‘langan';
+$_lang['BillPayedUslovno'] = 'shartli to‘langan';
+$_lang['BillDeleted'] = 'o‘chirilgan';
 
 $_lang['OrderStatusNeObrabotan'] = 'tasdiqlangaman';
 $_lang['OrderStatusObrabotan'] = 'tekshirilgan';
 $_lang['OrderStatusSuspended'] = 'bekor qilingan';
 
-$_lang['SortAsc'] = 'o\'sish tartibida';
+$_lang['SortAsc'] = 'o‘sish tartibida';
 $_lang['SortDesc'] = 'kamayish tartibida';
 
 $_lang['TicketPriority0'] = 'shoshilinch emas';
@@ -65,24 +65,24 @@ $_lang['TicketStatusOpen'] = 'ochiq';
 $_lang['TicketStatusClose'] = 'yopiq';
 
 $_lang['Captcha'] = 'Maxfiy kod';
-$_lang['CaptchaNeVidno'] = 'Rasm yoki belgilarni ko\'rmasangiz:';
+$_lang['CaptchaNeVidno'] = 'Rasm yoki belgilarni ko‘rmasangiz:';
 $_lang['CaptchaObnovit'] = 'rasmni yangilang';
 $_lang['payKvitanciya'] = 'Receipt for physical entities';
 $_lang['paySchet'] = 'Invoice for legal entities';
 $_lang['payPartner'] = 'Partnyor hisobi';
 $_lang['payBalance'] = 'Ichki hisob';
 
-$_lang['ErrorGetCurrentCurrency'] = 'Sayt valyutasini tanlab bo\'lmadi.';
-$_lang['ErrorNoLogin'] = 'Login ko\'rsatilmagan.';
+$_lang['ErrorGetCurrentCurrency'] = 'Sayt valyutasini tanlab bo‘lmadi.';
+$_lang['ErrorNoLogin'] = 'Login ko‘rsatilmagan.';
 $_lang['ErrorNonExistsLogin'] = 'Bunday login mavjud emas.';
-$_lang['ErrorNoPassword'] = 'Parol ko\'rsatilmagan.';
-$_lang['ErrorBadPassword'] = 'Noto\'gri parol.';
+$_lang['ErrorNoPassword'] = 'Parol ko‘rsatilmagan.';
+$_lang['ErrorBadPassword'] = 'Noto‘gri parol.';
 $_lang['ErrorPasswordNoConfirm'] = 'Parol tasdiqlanmadi.';
-$_lang['ErrorPasswordLength'] = 'Parol eng kamida 6 belgi bo\'lishi kerak.';
+$_lang['ErrorPasswordLength'] = 'Parol eng kamida 6 belgi bo‘lishi kerak.';
 $_lang['ErrorPasswordConfirm'] = 'Parol mos emas. Parolni takroran kiriting.';
 $_lang['ErrorBadLoginOrPassword'] = 'Sizning login yoki parolingizda xatolik mavjud.';
-$_lang['ErrorWrongCaptcha'] = 'Noto\'gri maxfiy kod.';
-$_lang['ErrorBadId'] = 'Noto\'gri ID.';
+$_lang['ErrorWrongCaptcha'] = 'Noto‘gri maxfiy kod.';
+$_lang['ErrorBadId'] = 'Noto‘gri ID.';
 
 $_lang['OrderType']['hosting'] = 'Hosting';
 $_lang['OrderType']['reseller'] = 'Reselling';
@@ -128,7 +128,7 @@ $_lang['BillingMenuLogout'] = 'Chiqish';
 $_lang['BillingMenuOrder'] = 'Buyurtma berish';
 
 $_lang['BillingMenuBalance'] = 'Balansingiz';
-$_lang['BillingMenuAddFunds'] = 'hisobni to\'ldirish';
+$_lang['BillingMenuAddFunds'] = 'hisobni to‘ldirish';
 
 #####################################################################################
 ##################### billing.php :: profile
@@ -136,9 +136,9 @@ $_lang['BillingMenuAddFunds'] = 'hisobni to\'ldirish';
 
 $_lang['ProfileTitle'] = 'Profil';
 $_lang['ProfileChangeSuccess'] = 'Profil muvaffaqiyatli yangilandi.';
-$_lang['ProfileNeedFromReg'] = 'Buyurtmani davom ettirish uchun <BR>profilingiz ma\'lumotlarini to\'ldiring.';
-$_lang['ProfileFieldsForAllDomains'] = 'Domen (.uz va .ru domendan tashqari) ro\'yhatga olish uchun , passport ma\'lumotlaridan boshqa barcha maydonlarni to\'ldirish majburiy!';
-$_lang['ProfileFieldsForRuDomain'] = '.Uz va .Ru domenlari uchun passport ma\'lumotlarini ham to\'ldirish majburiy!';
+$_lang['ProfileNeedFromReg'] = 'Buyurtmani davom ettirish uchun <BR>profilingiz ma\'lumotlarini to‘ldiring.';
+$_lang['ProfileFieldsForAllDomains'] = 'Domen (.uz va .ru domendan tashqari) ro‘yhatga olish uchun , passport ma\'lumotlaridan boshqa barcha maydonlarni to‘ldirish majburiy!';
+$_lang['ProfileFieldsForRuDomain'] = '.Uz va .Ru domenlari uchun passport ma\'lumotlarini ham to‘ldirish majburiy!';
 $_lang['ProfileOfOrg'] = 'Yuridik shaxs';
 $_lang['ProfileOfPrivatePerson'] = 'Jismoniy shaxs';
 $_lang['ProfileContact'] = 'Jismoniy shaxs';
@@ -147,21 +147,21 @@ $_lang['ProfileName'] = 'Ism';
 $_lang['ProfileOtchestvo'] = 'Otasining ismi';
 $_lang['ProfileOrgData'] = 'Yuridik shaxs ma\'lumotlari';
 $_lang['ProfileOrg'] = 'Yuridik shaxs';
-$_lang['ProfileOrgComment'] = 'Yuridik shaxsning to\'liq nomi (rus tilida).<BR>Masalan: Limited Lability Company "Horns and Hooves"';
+$_lang['ProfileOrgComment'] = 'Yuridik shaxsning to‘liq nomi (rus tilida).<BR>Masalan: Limited Lability Company "Horns and Hooves"';
 $_lang['ProfilePassportData'] = 'Passport ma\'lumoti';
 $_lang['ProfilePassportSeriya'] = 'Seriyasi va raqami';
-$_lang['ProfilePassportSeriyaComment'] = '№ belgisini ishlatmang.<BR>Namuna, Rossiya: 34 02 651241; Namuna, O\'zbekiston: AA 1112233';
+$_lang['ProfilePassportSeriyaComment'] = '№ belgisini ishlatmang.<BR>Namuna, Rossiya: 34 02 651241; Namuna, o‘zbekiston: AA 1112233';
 $_lang['ProfilePassportVidan'] = 'Bergan tashkilot';
-$_lang['ProfilePassportVidanComment'] = 'Passport bergan tashkilot to\'liq nomi.<BR>Masalan: Toshkent shahar, Chilonzor tuman IIB';
+$_lang['ProfilePassportVidanComment'] = 'Passport bergan tashkilot to‘liq nomi.<BR>Masalan: Toshkent shahar, Chilonzor tuman IIB';
 $_lang['ProfilePassportVidanData'] = 'Berilgan vaqti';
 $_lang['ProfileBirthDate'] = 'Tug\'ilgan sana';
 $_lang['ProfileInn'] = 'STIR';
-$_lang['ProfileInnComment'] = 'Soliq to\'lovchi identifikatsion raqami (STIR).<BR>Masalan: 111222333';
+$_lang['ProfileInnComment'] = 'Soliq to‘lovchi identifikatsion raqami (STIR).<BR>Masalan: 111222333';
 $_lang['ProfileOrgEng'] = 'Yuridik shaxs (eng.)';
-$_lang['ProfileOrgEngComment'] = 'Yuridik shaxsning to\'liq nomi.<BR>Masalan: "ROGA I KOPYTA", LTD.';
+$_lang['ProfileOrgEngComment'] = 'Yuridik shaxsning to‘liq nomi.<BR>Masalan: "ROGA I KOPYTA", LTD.';
 $_lang['ProfileYuridAddress'] = 'Yuridik manzili';
-$_lang['ProfileYuridAddressComment'] = 'Nizomda ko\'rsatilgan yuridik shaxs manzili.<BR>Masalan: 101000, Toshkent, Parlament ko\'chasi 1-uy, 2-xonadon';
-$_lang['ProfileInnComment2'] = 'Yuridik shaxs soliq to\'lovchi identifikatsiya raqami (STIR).<BR>Masalan: 100111222';
+$_lang['ProfileYuridAddressComment'] = 'Nizomda ko‘rsatilgan yuridik shaxs manzili.<BR>Masalan: 101000, Toshkent, Parlament ko‘chasi 1-uy, 2-xonadon';
+$_lang['ProfileInnComment2'] = 'Yuridik shaxs soliq to‘lovchi identifikatsiya raqami (STIR).<BR>Masalan: 100111222';
 $_lang['ProfileOgrn'] = 'Company code';
 $_lang['ProfileOgrnComment'] = 'For Russian companies - main state registration number for legal entities (OGRN). For businesses from other countries - information about the main registration document in accordance with the law of your country (series and number).';
 $_lang['ProfileOgrnBy'] = 'Company code issued by';
@@ -189,20 +189,20 @@ $_lang['ProfileFax'] = 'Faks';
 $_lang['ProfileFaxComment'] = 'Phone with international code; international code, city code and local number are separated with spaces. No parentheses and hyphens are allowed.<BR>Example: +7 495 8102233';
 $_lang['ProfileEmail'] = 'Email';
 $_lang['ProfileIcq'] = 'Icq';
-$_lang['ProfileDopInfo'] = 'Qo\'shimcha ma\'lumot';
+$_lang['ProfileDopInfo'] = 'Qo‘shimcha ma\'lumot';
 $_lang['ProfileRipn'] = 'RIPN';
 $_lang['ProfileRipe'] = 'RIPE';
 $_lang['ProfileUanic'] = 'UANIC';
 
-$_lang['ProfileChangePassword'] = 'Parolni o\'zgartirish';
+$_lang['ProfileChangePassword'] = 'Parolni o‘zgartirish';
 $_lang['ProfileNewPassword'] = 'Yangi parol';
 $_lang['ProfileUserSettings'] = 'Foydalanuvchi sozlamalari';
 $_lang['ProfileCurrency'] = 'Sayt valyutasi';
 $_lang['ProfileDefaultCurrency'] = 'Valyuta';
-$_lang['ProfileNewSubscribe'] = 'Yangiliklarga a\'zo bo\'ling!';
+$_lang['ProfileNewSubscribe'] = 'Yangiliklarga a\'zo bo‘ling!';
 
-$_lang['ProfileErrorBadEmail'] = 'Noto\'g\'ri email.';
-$_lang['ProfileErrorYouCanWorkWithoutProfile'] = 'Diqqat! Profil ma\'lumotlari to\'ldirilmaguncha shaxsiy kabinetdan foydalana olmaysiz.';
+$_lang['ProfileErrorBadEmail'] = 'Noto‘g\'ri email.';
+$_lang['ProfileErrorYouCanWorkWithoutProfile'] = 'Diqqat! Profil ma\'lumotlari to‘ldirilmaguncha shaxsiy kabinetdan foydalana olmaysiz.';
 $_lang['ProfileErrorFields'] = 'Ushbu maydonlarda xatolik mavjud';
 
 #####################################################################################
@@ -210,18 +210,18 @@ $_lang['ProfileErrorFields'] = 'Ushbu maydonlarda xatolik mavjud';
 #####################################################################################
 
 $_lang['OrdersTitle'] = 'Buyurtmalar';
-$_lang['OrdersDeleteSuccess'] = 'Buyurtma va unga bog\'liq hisoblar muvaffaqiyatli o\'chirildi.';
-$_lang['OrdersErrorCantDelete'] = 'Ushbu buyurtmani bekor qilib bo\'lmaydi.';
-$_lang['OrdersAddonsForOrder'] = 'Faol qo\'shimcha xizmatlar';
-$_lang['OrdersNoAddons'] = 'qo\'shimcha xizmatlar buyurtma qilinmagan';
-$_lang['OrdersAddonsOrder'] = 'Qo\'shimcha xizmatlarga buyurtma berish';
-$_lang['OrdersNoAvailAddons'] = 'Mos qo\'shimcha xizmatlar mavjud emas.';
+$_lang['OrdersDeleteSuccess'] = 'Buyurtma va unga bog\'liq hisoblar muvaffaqiyatli o‘chirildi.';
+$_lang['OrdersErrorCantDelete'] = 'Ushbu buyurtmani bekor qilib bo‘lmaydi.';
+$_lang['OrdersAddonsForOrder'] = 'Faol qo‘shimcha xizmatlar';
+$_lang['OrdersNoAddons'] = 'qo‘shimcha xizmatlar buyurtma qilinmagan';
+$_lang['OrdersAddonsOrder'] = 'Qo‘shimcha xizmatlarga buyurtma berish';
+$_lang['OrdersNoAvailAddons'] = 'Mos qo‘shimcha xizmatlar mavjud emas.';
 $_lang['OrdersDate'] = 'Sana';
 $_lang['OrdersDomain'] = 'Domen';
 $_lang['OrdersTarif'] = 'Tarif';
 $_lang['OrdersEnd'] = 'Amal qilish muddati';
 $_lang['OrdersLeftDays'] = 'Qolgan muddat';
-$_lang['OrdersDeleteAlert'] = 'Buyurtma unga bog\'liq barcha hisoblar bilan birga o\'chiriladi. Rostdan ham buyurtmani bekor qilmoqchimisiz?';
+$_lang['OrdersDeleteAlert'] = 'Buyurtma unga bog\'liq barcha hisoblar bilan birga o‘chiriladi. Rostdan ham buyurtmani bekor qilmoqchimisiz?';
 $_lang['OrdersDeleteOrder'] = 'Buyurtmani bekor qilish';
 $_lang['OrdersRenewOrder'] = 'Muddatini uzaytirish';
 $_lang['OrdersDownloadFile'] = 'Ilovani yuklab olish';
@@ -230,7 +230,7 @@ $_lang['OrdersChangeTarif'] = 'Tarifni almashtirish';
 $_lang['OrdersTotalOrders'] = 'Jami buyurtmalar';
 $_lang['OrdersOrdersOnPage'] = 'Sahifadagi buyurtmalar';
 
-$_lang['OrdersErrorNoFiles'] = 'Ushbu buyurtmada ilovalar yo\'q.';
+$_lang['OrdersErrorNoFiles'] = 'Ushbu buyurtmada ilovalar yo‘q.';
 $_lang['OrdersErrorNoOrder'] = 'Buyurtma topilmadi.';
 
 #####################################################################################
@@ -238,32 +238,32 @@ $_lang['OrdersErrorNoOrder'] = 'Buyurtma topilmadi.';
 #####################################################################################
 
 $_lang['DomainsTitle'] = 'Domenlar';
-$_lang['DomainsChangeDNSSuccess'] = 'DNS-server muvaffaqiyatli o\'zgartirildi.';
+$_lang['DomainsChangeDNSSuccess'] = 'DNS-server muvaffaqiyatli o‘zgartirildi.';
 $_lang['DomainsDNSFor'] = 'DNS-serverlar';
 $_lang['DomainsNS1'] = 'DNS 1';
 $_lang['DomainsNS2'] = 'DNS 2';
 $_lang['DomainsNS3'] = 'DNS 3';
 $_lang['DomainsNS4'] = 'DNS 4';
-$_lang['DomainsDeleteSuccess'] = 'Domen va unga bog\'liq barcha hisoblar o\'chirildi.';
+$_lang['DomainsDeleteSuccess'] = 'Domen va unga bog\'liq barcha hisoblar o‘chirildi.';
 $_lang['DomainsDate'] = 'Sana';
 $_lang['DomainsDomain'] = 'Domen';
 $_lang['DomainsEnd'] = 'Amal qilish muddati';
 $_lang['DomainsLeftDays'] = 'Qolgan vaqti';
-$_lang['DomainsChangeDNS'] = 'DNS-serverni o\'zgartirish';
-$_lang['DomainsDeleteAlert'] = 'Domen unga bog\'liq barcha hisoblar bilan birga o\'chiriladi. Rostdan ham domenni o\'chirmoqchimisiz?';
-$_lang['DomainsDeleteDomain'] = 'Domenni o\'chirish';
+$_lang['DomainsChangeDNS'] = 'DNS-serverni o‘zgartirish';
+$_lang['DomainsDeleteAlert'] = 'Domen unga bog\'liq barcha hisoblar bilan birga o‘chiriladi. Rostdan ham domenni o‘chirmoqchimisiz?';
+$_lang['DomainsDeleteDomain'] = 'Domenni o‘chirish';
 $_lang['DomainsRenewDomain'] = 'Domen muddatini uzaytirish';
 $_lang['DomainsDomainsTotal'] = 'Barcha domenlar';
 $_lang['DomainsOnPage'] = 'Sahifadagi domenlar';
 
-$_lang['DomainsErrorChangeDNS'] = 'DNS-serverni o\'zgartirib bo\'lmadi.';
-$_lang['DomainsErrorMin2DNS'] = 'Kamida ikkita DNS-server ko\'rsatilishi shart.';
-$_lang['DomainsErrorCantGetDNS'] = 'DNS-serverni tekshirib bo\'lmadi.';
+$_lang['DomainsErrorChangeDNS'] = 'DNS-serverni o‘zgartirib bo‘lmadi.';
+$_lang['DomainsErrorMin2DNS'] = 'Kamida ikkita DNS-server ko‘rsatilishi shart.';
+$_lang['DomainsErrorCantGetDNS'] = 'DNS-serverni tekshirib bo‘lmadi.';
 $_lang['DomainsErrorNoLoginForReg'] = 'Sozlamalar sozlanmagan';
-$_lang['DomainsErrorZoneNotSupported'] = 'Registrator bu domenni qo\'llamaydi.';
+$_lang['DomainsErrorZoneNotSupported'] = 'Registrator bu domenni qo‘llamaydi.';
 $_lang['DomainsErrorNoRegistrator'] = 'Domen registrator tanlanmadi.';
-$_lang['DomainsErrorNoUanic'] = 'UANIC maydoni to\'ldirilmagan va odatiy Nic-handle ko\'rsatilmagan';
-$_lang['DomainsErrorautoregDisable'] = 'Ushbu domen hududi uchun avto ro\'yhatga olish o\'chirilgan.';
+$_lang['DomainsErrorNoUanic'] = 'UANIC maydoni to‘ldirilmagan va odatiy Nic-handle ko‘rsatilmagan';
+$_lang['DomainsErrorautoregDisable'] = 'Ushbu domen hududi uchun avto ro‘yhatga olish o‘chirilgan.';
 $_lang['DomainsErrorZoneNotFound'] = 'Domen hududi topilmadi.';
 $_lang['DomainsErrorDomainOrdersNotFound'] = 'Domenga buyurtma topilmadi';
 $_lang['DomainsErrorUserNotFound'] = 'Foydalanuvchi topilmadi.';
@@ -274,10 +274,10 @@ $_lang['DomainsErrorCantGetValue'] = 'Qiymat aniqlanmadi';
 #####################################################################################
 
 $_lang['BillsTitle'] = 'Hisoblar';
-$_lang['BillsDeleteSuccess'] = 'Hisob o\'chirildi.';
-$_lang['BillsNeOplachenoSchetov'] = 'To\'langan hisoblar mavjud emas';
-$_lang['BillsGoto'] = 'To\'lash uchun';
-$_lang['BillGotoFor'] = 'hisobga o\'ting';
+$_lang['BillsDeleteSuccess'] = 'Hisob o‘chirildi.';
+$_lang['BillsNeOplachenoSchetov'] = 'To‘langan hisoblar mavjud emas';
+$_lang['BillsGoto'] = 'To‘lash uchun';
+$_lang['BillGotoFor'] = 'hisobga o‘ting';
 $_lang['BillsDate'] = 'Sana';
 $_lang['BillsBillNo'] = '№';
 $_lang['BillsTarif'] = 'Tarif';
@@ -285,15 +285,15 @@ $_lang['BillsDomain'] = 'Domen';
 $_lang['BillsCost'] = 'Narxi';
 $_lang['BillsSumma'] = 'Amount';
 $_lang['BillsStatus'] = 'Holati';
-$_lang['BillsPay'] = 'To\'lash';
-$_lang['BillsChangeTarif'] = 'tarifni o\'zgartirish';
-$_lang['BillsOrderedAddons'] = 'Qo\'shimcha xizmatlar';
-$_lang['BilldOrderAddons'] = 'Qo\'shimcha xizmatlar qo\'shish';
-$_lang['BillsPayBill'] = 'Hisobni to\'lash';
-$_lang['BillsDeleteBillAlert'] = 'Hisobni o\'chirishga ishonchingiz komilmi?';
-$_lang['BillsDeleteBill'] = 'Hisobni o\'chirish';
-$_lang['BillsBillByAdmin'] = 'Hisob ma\'muriyat tomonidan qo\'yilgan';
-$_lang['BillsAddFunds'] = 'Ichki balansni to\'ldirish';
+$_lang['BillsPay'] = 'To‘lash';
+$_lang['BillsChangeTarif'] = 'tarifni o‘zgartirish';
+$_lang['BillsOrderedAddons'] = 'Qo‘shimcha xizmatlar';
+$_lang['BilldOrderAddons'] = 'Qo‘shimcha xizmatlar qo‘shish';
+$_lang['BillsPayBill'] = 'Hisobni to‘lash';
+$_lang['BillsDeleteBillAlert'] = 'Hisobni o‘chirishga ishonchingiz komilmi?';
+$_lang['BillsDeleteBill'] = 'Hisobni o‘chirish';
+$_lang['BillsBillByAdmin'] = 'Hisob ma\'muriyat tomonidan qo‘yilgan';
+$_lang['BillsAddFunds'] = 'Ichki balansni to‘ldirish';
 $_lang['BillsTotalBills'] = 'Jami hisoblar';
 $_lang['BillsBillsPerPage'] = 'Sahifadagi hisoblar';
 
@@ -304,12 +304,12 @@ $_lang['BillsBillsPerPage'] = 'Sahifadagi hisoblar';
 
 $_lang['PayTitle'] = 'Pay invoice №';
 $_lang['PayGoto'] = 'Go to';
-$_lang['PayGotoFor'] = 'profil ma\'lumotlarini to\'ldiring';
+$_lang['PayGotoFor'] = 'profil ma\'lumotlarini to‘ldiring';
 $_lang['PayNullBill'] = 'Nol hisob';
-$_lang['PayBillPaySuccess'] = 'Hisob muvaffaqiyatli to\'landi.';
-$_lang['PayOrderCreateSuccess'] = 'Buyurtma ro\'yhatga olindi.';
-$_lang['PayForTarifChange'] = 'Tarifni o\'zgartirish uchun';
-$_lang['PayNeedBillPay'] = 'Siz hisobni to\'lashingiz kerak.';
+$_lang['PayBillPaySuccess'] = 'Hisob muvaffaqiyatli to‘landi.';
+$_lang['PayOrderCreateSuccess'] = 'Buyurtma ro‘yhatga olindi.';
+$_lang['PayForTarifChange'] = 'Tarifni o‘zgartirish uchun';
+$_lang['PayNeedBillPay'] = 'Siz hisobni to‘lashingiz kerak.';
 $_lang['PayForPayGoto'] = 'To pay the invoice you will need to visit merchant website. To do so, please press "Pay" button below:';
 $_lang['PaySokraschenieRubl'] = 'rub.';
 $_lang['PayBillCreateEasyPaySuccess'] = 'Invoice for the EasyPay system has been successfully sent to your wallet';
@@ -351,10 +351,10 @@ $_lang['RenewDomain'] = 'Domen';
 $_lang['RenewNaSrok'] = 'Muddati';
 $_lang['RenewYear'] = 'yil';
 $_lang['RenewTarif'] = 'Tarif';
-$_lang['RenewAddons'] = 'Qo\'shimcha xizmatlar';
+$_lang['RenewAddons'] = 'Qo‘shimcha xizmatlar';
 $_lang['RenewRenew'] = 'Muddatini uzaytirish';
 
-$_lang['RenewErrorNoSrok'] = 'Uzaytirish muddati ko\'rsatilmadi.';
+$_lang['RenewErrorNoSrok'] = 'Uzaytirish muddati ko‘rsatilmadi.';
 
 
 #####################################################################################
@@ -365,10 +365,10 @@ $_lang['PartnerTitle'] = 'Hamkorlik dasturi';
 $_lang['PartnerMoneyOut'] = 'Claim money from partner account:';
 $_lang['PartnerMoneyOutSuccess'] = 'Your payment request has been successfully sent to administration. Please wait for the transfer.';
 $_lang['PartnerPartnerSchet'] = 'Hamkorlik dasturidagi hisobingiz holati';
-$_lang['PartnerPartnerLink'] = 'Do\'stlaringizni taklif etish uchun havola';
+$_lang['PartnerPartnerLink'] = 'Do‘stlaringizni taklif etish uchun havola';
 $_lang['PartnerZakazatVivod'] = 'Claim payout';
 $_lang['PartnerSumma'] = 'Miqdori';
-$_lang['PartnerSposobVivoda'] = 'To\'lov tizimi';
+$_lang['PartnerSposobVivoda'] = 'To‘lov tizimi';
 $_lang['PartnerPurse'] = 'Account/Wallet number';
 $_lang['PartnerZakazatVivodButton'] = 'Claim payment';
 $_lang['PartnerOurBanners'] = 'Reklama bannerlari';
@@ -383,21 +383,21 @@ $_lang['PartnerErrorPartnerOff'] = 'We are sorry, partner program is currently d
 #####################################################################################
 
 $_lang['TicketsTitle'] = 'Murojaatlar';
-$_lang['TicketsDeleteSuccess'] = 'Murojaat o\'chirildi.';
-$_lang['TicketsGotoTicketsList'] = 'murojaatlar ro\'yhati';
+$_lang['TicketsDeleteSuccess'] = 'Murojaat o‘chirildi.';
+$_lang['TicketsGotoTicketsList'] = 'murojaatlar ro‘yhati';
 $_lang['TicketsCloseSuccess'] = 'Murojaat yopildi.';
 $_lang['TicketsGoBackToTicket'] = 'murojaatga qaytish';
 $_lang['TicketsNewSuccess'] = 'Murojaat yaratildi.';
 $_lang['TicketsGotoNewTicket'] = 'Murojaat yaratish';
-$_lang['TicketsReplySuccess'] = 'Xabar qo\'shildi.';
+$_lang['TicketsReplySuccess'] = 'Xabar qo‘shildi.';
 $_lang['TicketsTicketTypeMsg'] = 'Xabar';
 $_lang['TicketsTicketTypeReply'] = 'Javob';
 $_lang['TicketsPriority'] = 'Ahamiyati';
 $_lang['TicketsStatus'] = 'Holati';
 $_lang['TicketsTicket'] = 'Murojaat';
-$_lang['TicketsTicketView'] = 'Murojaatni ko\'rish';
+$_lang['TicketsTicketView'] = 'Murojaatni ko‘rish';
 $_lang['TicketsDate'] = 'Vaqti';
-$_lang['TicketsAddMessage'] = 'Xabar qo\'shish';
+$_lang['TicketsAddMessage'] = 'Xabar qo‘shish';
 $_lang['TicketsStatusOpen'] = 'faol';
 $_lang['TicketsStatusAll'] = 'barchasi';
 $_lang['TicketsStatusClosed'] = 'yopiq';
@@ -405,31 +405,31 @@ $_lang['TicketsYourTickets'] = 'Murojaatlaringiz';
 $_lang['TicketsSubject'] = 'Mavzu';
 $_lang['TicketsTicketReplys'] = 'Javoblar';
 $_lang['TicketsDeleteAlert'] = 'Are you sure you want to delete ticket?';
-$_lang['TicketsDelete'] = 'Murojaatni o\'chirish';
+$_lang['TicketsDelete'] = 'Murojaatni o‘chirish';
 $_lang['TicketsCloseAlert'] = 'Are you sure you want to close ticket?';
 $_lang['TicketsClose'] = 'Murojaatni yopish';
 $_lang['TicketsTotalTickets'] = 'Barcha murojaatlar';
-$_lang['TicketsShow'] = 'Ko\'rish';
+$_lang['TicketsShow'] = 'Ko‘rish';
 $_lang['TicketsNewTicket'] = 'Yangi murojaat';
 $_lang['TicketsAddTicket'] = 'Murojaat yaratish';
-$_lang['TicketsErrorSubject'] = 'Murojaat mavzusi ko\'rsatilmadi.';
+$_lang['TicketsErrorSubject'] = 'Murojaat mavzusi ko‘rsatilmadi.';
 $_lang['TicketsErrorPriority'] = 'Murojaat ahamiyatlik darajasi belgilanmadi.';
 $_lang['TicketsErrorMessage'] = 'Murojaat matni topilmadi.';
-$_lang['TicketsErrorNoTicket'] = 'Murojaat topilmadi. Ehtimol, ushbu murojaat o\'chirilgandir.';
+$_lang['TicketsErrorNoTicket'] = 'Murojaat topilmadi. Ehtimol, ushbu murojaat o‘chirilgandir.';
 
 #####################################################################################
 ##################### billing.php :: changetarif
 #####################################################################################
 
-$_lang['ChangeTitle'] = 'Tarifni o\'zgartirish';
-$_lang['ChangeChangeTarifSuccess'] = 'Tarif muvaffaqiyatli o\'zgartirildi.';
-$_lang['ChangeErrorChange'] = 'Serverda tarifni o\'zgartirib bo\'lmadi.';
+$_lang['ChangeTitle'] = 'Tarifni o‘zgartirish';
+$_lang['ChangeChangeTarifSuccess'] = 'Tarif muvaffaqiyatli o‘zgartirildi.';
+$_lang['ChangeErrorChange'] = 'Serverda tarifni o‘zgartirib bo‘lmadi.';
 $_lang['ChangeDomain'] = 'Domem';
 $_lang['ChangeTarif'] = 'Tarif';
 $_lang['ChangeNewTarif'] = 'Yangi tarif';
 
 $_lang['ChangeErrorNoNewTarif'] = 'Tarif tanlanmagan.';
-$_lang['ChangeErrorNoAccessTarif'] = 'Ushbu tarifga o\'tish mumkin emas.';
+$_lang['ChangeErrorNoAccessTarif'] = 'Ushbu tarifga o‘tish mumkin emas.';
 $_lang['ChangeErrorNoOrder'] = 'Buyurtma topilmadi.';
 
 #####################################################################################
@@ -466,10 +466,10 @@ $_lang['CatErrorIP'] = 'Unable to obtain site IP-address';
 ##################### billing.php :: addfunds
 #####################################################################################
 
-$_lang['FundsTitle'] = 'Hisobni to\'ldirish';
+$_lang['FundsTitle'] = 'Hisobni to‘ldirish';
 $_lang['FundsMinSumm'] = 'Eng kamida';
-$_lang['FundsSumm'] = 'Hisobni to\'ldirish';
-$_lang['FundsGotoPay'] = 'Hisobni to\'lash';
+$_lang['FundsSumm'] = 'Hisobni to‘ldirish';
+$_lang['FundsGotoPay'] = 'Hisobni to‘lash';
 
 #####################################################################################
 ##################### billing.php :: catalogsregform
@@ -537,7 +537,7 @@ $_lang['CatalogTem11'] = 'Jonivorlar';
 $_lang['CatalogTem12'] = 'Legislation';
 $_lang['CatalogTem13'] = 'Sog\'liq';
 $_lang['CatalogTem14'] = 'Tanishuv';
-$_lang['CatalogTem15'] = 'O\'yinlar';
+$_lang['CatalogTem15'] = 'o‘yinlar';
 $_lang['CatalogTem16'] = 'Internet';
 $_lang['CatalogTem17'] = 'San\'at';
 $_lang['CatalogTem18'] = 'Tarix';
@@ -550,7 +550,7 @@ $_lang['CatalogTem24'] = 'Tibbiyot';
 $_lang['CatalogTem25'] = 'Moda';
 $_lang['CatalogTem26'] = 'Musiqa';
 $_lang['CatalogTem27'] = 'Ilm-fan';
-$_lang['CatalogTem28'] = 'Ko\'chmas mulk';
+$_lang['CatalogTem28'] = 'Ko‘chmas mulk';
 $_lang['CatalogTem29'] = 'Ta\'lim';
 $_lang['CatalogTem30'] = 'Siyosat';
 $_lang['CatalogTem31'] = 'Portal';
@@ -562,7 +562,7 @@ $_lang['CatalogTem36'] = 'boshqa';
 $_lang['CatalogTem37'] = 'Sayohat';
 $_lang['CatalogTem38'] = 'Employment';
 $_lang['CatalogTem39'] = 'Radio';
-$_lang['CatalogTem40'] = 'Ko\'ngilochar';
+$_lang['CatalogTem40'] = 'Ko‘ngilochar';
 $_lang['CatalogTem41'] = 'Misc';
 $_lang['CatalogTem42'] = 'Reklama';
 $_lang['CatalogTem43'] = 'Din';
@@ -679,7 +679,7 @@ $_lang['CatalogReg86'] = 'Non-CIS countries';
 #####################################################################################
 
 $_lang['FeedTitle'] = 'Aloqa';
-$_lang['FeedSendSuccess'] = 'Xabar muvaffaqiyatli jo\'natildi.';
+$_lang['FeedSendSuccess'] = 'Xabar muvaffaqiyatli jo‘natildi.';
 $_lang['FeedContactViaICQ'] = 'Contact via ICQ';
 $_lang['FeedContactPhones'] = 'Phone numbers';
 $_lang['FeedName'] = 'Name';
@@ -719,7 +719,7 @@ $_lang['ForgotErrorNoUserWithNameOrEmail'] = 'No user with such login or email f
 #####################################################################################
 
 $_lang['NewsTitle'] = 'Yangiliklar';
-$_lang['NewsSeeAllNews'] = 'Barcha yangiliklarni ko\'rish...';
+$_lang['NewsSeeAllNews'] = 'Barcha yangiliklarni ko‘rish...';
 $_lang['NewsErrorNotFound'] = 'Yangiliklar mavjud emas.';
 
 #####################################################################################
@@ -732,7 +732,7 @@ $_lang['OrderComment'] = 'Izoh';
 $_lang['OrderStep'] = 'Qadam';
 $_lang['OrderStepFrom'] = '/';
 $_lang['OrderSelectUserType'] = 'Mijoz turini tanlang';
-$_lang['OrderRegedUser'] = 'Allaqachon ro\'yhatdan o\'tgan';
+$_lang['OrderRegedUser'] = 'Allaqachon ro‘yhatdan o‘tgan';
 $_lang['OrderNewClient'] = 'Yangi mijoz';
 $_lang['OrderEnterLoginAndPassword'] = 'Login va parolingizni kiriting';
 $_lang['OrderLogin'] = 'Tizimga kirish';
@@ -760,7 +760,7 @@ $_lang['OrderTarif'] = 'Tarif';
 $_lang['OrderRazovoZaUstanovku'] = 'bir martalik';
 $_lang['OrderSokraschenieMonth'] = 'oy';
 $_lang['OrderDomain'] = 'Domen nomi';
-$_lang['OrderDomainNew'] = 'domen ro\'yhatdan o\'tkazish';
+$_lang['OrderDomainNew'] = 'domen ro‘yhatdan o‘tkazish';
 $_lang['OrderDomainExists'] = 'domen allaqachon olingan';
 $_lang['OrderWithoutDomain'] = 'domensiz';
 $_lang['OrderDomainComment'] = 'masalan, example.com';
@@ -768,7 +768,7 @@ $_lang['OrderResultOfCheck'] = 'Bandligini tekshirish';
 $_lang['OrderDomainSmallOneWord'] = 'domen';
 $_lang['OrderDomainStatus'] = 'domen holati';
 $_lang['OrderDomainStatusErrorNotCorrect'] = 'domen nomida xatolik';
-$_lang['OrderDomainStatusErrorLength'] = 'domen nomi {minWidth} ta belgidan {maxWidth} gacha bo\'lishi kerak';
+$_lang['OrderDomainStatusErrorLength'] = 'domen nomi {minWidth} ta belgidan {maxWidth} gacha bo‘lishi kerak';
 $_lang['OrderRegIn'] = 'registration in';
 $_lang['OrderNotSupported'] = 'not supported';
 $_lang['OrderDomainStatusErrorOtherUser'] = 'domain ordered by another user';
@@ -812,7 +812,7 @@ $_lang['OrderPrefixNa'] = 'as of';
 $_lang['OrderSokraschenieGod'] = 'yil';
 $_lang['OrderTotal'] = 'Total';
 $_lang['OrderDopolnitelno'] = 'Additional';
-$_lang['OrderPayMethod'] = 'To\'lov usuli';
+$_lang['OrderPayMethod'] = 'To‘lov usuli';
 $_lang['OrderButtonOrder'] = 'Order';
 $_lang['OrderErrorLoginBegin'] = 'Login should start with a-z';
 $_lang['OrderErrorLoginSymbols'] = 'Login should contain the following characters a-z,0-9';
@@ -842,7 +842,7 @@ $_lang['OrderErrorNetSrokovZakaza'] = 'Available terms of order missing. Please 
 #####################################################################################
 
 $_lang['SitesTitle'] = 'Mijozlarimiz';
-$_lang['SitesCatalogDisabled'] = 'Mijozlar sayti bo\'limi yopiq.';
+$_lang['SitesCatalogDisabled'] = 'Mijozlar sayti bo‘limi yopiq.';
 
 #####################################################################################
 ##################### billing.php :: whois
@@ -858,13 +858,13 @@ $_lang['WhoisOrderHostAndDomain'] = 'hosting va domen buyurtma qilish';
 $_lang['WhoisOrderDomain'] = 'domen buyurtma qilish';
 $_lang['WhoisOrderHost'] = 'hosting buyurtma qilish';
 $_lang['WhoisAvailError'] = 'xatolik';
-$_lang['WhoisAvailFree'] = 'bo\'sh';
+$_lang['WhoisAvailFree'] = 'bo‘sh';
 $_lang['WhoisAvailNotFree'] = 'band';
 $_lang['WhoisDomainNotActive'] = 'domen hududi faol emas';
 $_lang['WhoisWhois'] = 'whois';
-$_lang['WhoisFreeDomainsInOtherZones'] = 'Boshqa zonalardagi bo\'sh domenlar';
-$_lang['WhoisNoFreeDomainsInOtherZones'] = 'boshqa zonalarda bo\'sh domen topilmadi';
-$_lang['WhoisAboutDomainLength'] = 'Bir yoki ikki belgilik domenlarning bo\'shligi, doim ham uning ro\'yhatdan o\'tkazish imkoniyatini anglatmaydi. Premium Domenlar ham shular jumlasidan';
+$_lang['WhoisFreeDomainsInOtherZones'] = 'Boshqa zonalardagi bo‘sh domenlar';
+$_lang['WhoisNoFreeDomainsInOtherZones'] = 'boshqa zonalarda bo‘sh domen topilmadi';
+$_lang['WhoisAboutDomainLength'] = 'Bir yoki ikki belgilik domenlarning bo‘shligi, doim ham uning ro‘yhatdan o‘tkazish imkoniyatini anglatmaydi. Premium Domenlar ham shular jumlasidan';
 $_lang['WhoisDomainInfo'] = 'Domen haqida ma\'lumot';
 $_lang['WhoisErrorDomain'] = 'Domen nomini kiriting.';
 $_lang['WhoisErrorZone'] = 'Domen zonasini tanlang.';
@@ -1122,15 +1122,15 @@ $_lang['Country']['ZW'] = 'Zimbabwe';
 
 $_lang['PaySokraschenieGrivna'] = 'UAH';
 $_lang['PayPortmoneCheckBill'] = 'If you have paid the invoice via Portmone, press the "Check payment status" button.';
-$_lang['PayErrorBadSumm'] = 'To\'lov miqdorida xatolik';
+$_lang['PayErrorBadSumm'] = 'To‘lov miqdorida xatolik';
 
 $_lang['DomainsErrorRegistratorNotFound'] = 'Registrator topilmadi';
 
 $_lang['OrderAddonsOs'] = 'Operating system';
 $_lang['OrderAddonsPanel'] = 'Boshqaruv paneli';
 
-$_lang['ProfileCodeWord'] = 'Shaxsiy maxfiy so\'z';
-$_lang['ProfileCodeWordComment'] = 'Yordam markazi tomonidan mijozni aniqlash uchun foydalaniladi. <BR>Faqat bir marta o\'rnatiladi - keyin ko\'rib ham, o\'zgartirib ham bo\'lmaydi. Ishonchli joyda saqlang!';
+$_lang['ProfileCodeWord'] = 'Shaxsiy maxfiy so‘z';
+$_lang['ProfileCodeWordComment'] = 'Yordam markazi tomonidan mijozni aniqlash uchun foydalaniladi. <BR>Faqat bir marta o‘rnatiladi - keyin ko‘rib ham, o‘zgartirib ham bo‘lmaydi. Ishonchli joyda saqlang!';
 
 #####################################################################################
 ##################### v1.6.1
@@ -1142,8 +1142,8 @@ $_lang['OrderFrom'] = 'from';
 $_lang['ZonesTotal'] = 'Total domain zones';
 
 $_lang['OrderCheckDomainInSelectedZones'] = 'Tanlangan zonalarda tekshirish';
-$_lang['OrderFreeDomainsInFavoriteZones'] = 'Mashhur zonalardagi bo\'sh domenlar';
-$_lang['OrderFreeDomainsInSelectedZones'] = 'Tanlangan zonalardagi bo\'sh domenlar';
+$_lang['OrderFreeDomainsInFavoriteZones'] = 'Mashhur zonalardagi bo‘sh domenlar';
+$_lang['OrderFreeDomainsInSelectedZones'] = 'Tanlangan zonalardagi bo‘sh domenlar';
 $_lang['OrderSmallOrder'] = 'buyurtma berish';
 $_lang['OrdersPrintDogovor'] = 'Shartnomani chop etish';
 $_lang['ProfileEdrpou'] = 'EDRPOU';
@@ -1342,7 +1342,7 @@ $_lang['CalcSelect'] = 'Please specify what you want to calculate';
 $_lang['CalcGotoOrder'] = 'Proceed to order.';
 $_lang['TicketStatusWait'] = 'pending';
 $_lang['TicketsStatusWait'] = 'pending';
-$_lang['TicketsDepartment'] = 'Bo\'lim';
+$_lang['TicketsDepartment'] = 'Bo‘lim';
 
 $_lang['TarifsTitle'] = 'Plans';
 $_lang['TarifsCost'] = 'Price';
@@ -2297,7 +2297,7 @@ $_lang['ChangeNodesAlert'] = 'Warning! You cannot change number of nodes more th
 
 $_lang['SettingsTelegram'] = 'Telegram';
 $_lang['SettingsTelegramButtonAdd'] = 'Telegramni ulash';
-$_lang['SettingsTelegramAddInfo'] = 'Bizning {bot_name} botimizni aloqalaringiz ro\'yhatiga qo\'shing va /start tugmasini bosing. Ushbu kodni {bot_code} botga jo\'nating va Telegramni ulash tugmasini yana bir bor bosing yoki sahifani yangilang.';
+$_lang['SettingsTelegramAddInfo'] = 'Bizning {bot_name} botimizni aloqalaringiz ro‘yhatiga qo‘shing va /start tugmasini bosing. Ushbu kodni {bot_code} botga jo‘nating va Telegramni ulash tugmasini yana bir bor bosing yoki sahifani yangilang.';
 $_lang['SettingsTelegramAdded'] = 'Telegram botimizga muvaffaqiyatli ulandingiz.';
 $_lang['SettingsTelegramDeleted'] = 'Telegram akkauntingiz muvaffaqiyatli uzildi.';
 $_lang['All'] = 'Barchasi';
