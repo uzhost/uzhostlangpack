@@ -16,18 +16,18 @@
 #                                                                                    #
 ######################################################################################
 
-$_lang['Warning'] = 'Ogohlantirish!';
+$_lang['Warning'] = 'Diqqat!';
 $_lang['Error'] = 'Xatolik';
 
-$_lang['Required'] = 'ushbu belgi bilan belgilangan maydon to‘ldirilishi zarur';
+$_lang['Required'] = 'Ushbu belgi bilan belgilangan maydon to‘ldirilishi zarur';
 
 $_lang['Yes'] = 'ha';
 $_lang['No'] = 'yo‘q';
 
 $_lang['Pages'] = 'Sahifalar:';
 
-$_lang['Prev'] = 'Orqaga';
-$_lang['Next'] = 'Oldinga';
+$_lang['Prev'] = 'Ortga';
+$_lang['Next'] = 'Keyingi';
 $_lang['Change'] = 'o‘zgartirish';
 $_lang['Send'] = 'Jo‘natish';
 $_lang['Save'] = 'Saqlash';
