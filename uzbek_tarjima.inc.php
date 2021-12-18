@@ -2794,20 +2794,20 @@ $_lang['payExcodeLeftToBalanceSuccess'] = 'Kupon qiymati, to`lov miqdoridan ko`p
 
 $_lang['OrdersAccessIP'] = 'IP-address';
 
-$_lang['FilterOrdersType'] = 'Order type';
-$_lang['FilterStatus'] = 'Status';
-$_lang['FilterGroup'] = 'Group';
-$_lang['FilterPayType'] = 'Payment method';
-$_lang['FilterBillsType'] = 'For what';
-$_lang['datePayedPeriod'] = 'Payment period';
-$_lang['datePayedStart'] = 'Beginning of period';
-$_lang['datePayedEnd'] = 'End of period';
+$_lang['FilterOrdersType'] = 'Buyurtma turi';
+$_lang['FilterStatus'] = 'Holati';
+$_lang['FilterGroup'] = 'Guruh';
+$_lang['FilterPayType'] = 'To`lov usuli';
+$_lang['FilterBillsType'] = 'Buyurtma';
+$_lang['datePayedPeriod'] = 'To`lov muddati';
+$_lang['datePayedStart'] = 'Boshlanish vaqti';
+$_lang['datePayedEnd'] = 'Tugash vaqti';
 
-$_lang['MoneyFlowTitle'] = 'Balance';
-$_lang['MoneyFlowOperation'] = 'Operation';
-$_lang['MoneyFlowIn'] = 'Arrival';
-$_lang['MoneyFlowOut'] = 'Expenditure';
-$_lang['MoneyFlowBalance'] = 'Balance';
+$_lang['MoneyFlowTitle'] = 'Hisob';
+$_lang['MoneyFlowOperation'] = 'O`tkazmalar';
+$_lang['MoneyFlowIn'] = 'Hisobni to`ldirish';
+$_lang['MoneyFlowOut'] = 'Yechib olish';
+$_lang['MoneyFlowBalance'] = 'Balans';
 
 $_lang['BillsAttachWithByAdminError'] = 'It is forbidden to combine invoices for services with invoices issued by the administrator.';
 
@@ -2816,10 +2816,10 @@ $_lang['ClientDefaultTemplate'] = 'Default design';
 
 $_lang['PayGotoQRCodeRu'] = 'Attention! To pay using a QR code, your phone must be equipped with a camera and you must have a banking or other payment application installed. <BR> <BR> 1. Launch the application, select payment by QR code and point your phone camera at the QR code (note that the rectangular window in the application must match the barcode). As soon as the code is considered, the next step will appear on the screen. <BR> 2. Indicate the card or account from which you will pay, check the correctness of the amount and the beneficiary and confirm the transaction. <BR> 3. Upon receipt of funds to our bank account, the payment will be credited and you will receive a payment notification by email.';
 
-$_lang['OrderSokraschenieHours'] = 'hr';
+$_lang['OrderSokraschenieHours'] = 's';
 $_lang['OrderSokraschenieMinutes'] = 'min';
 
-$_lang['FakturaComission'] = 'Payment system commission';
+$_lang['FakturaComission'] = 'To`lov tizimi komissiyasi';
 
 $_lang['FakturaReceiptType'][1] = 'Arrival';
 $_lang['FakturaReceiptType'][2] = 'Refund';
@@ -2832,12 +2832,12 @@ $_lang['FakturaReceiptPaymentData'][3] = 'Prepayment';
 $_lang['BillsGetFakturaReceipt'] = 'Get a cashier`s receipt';
 $_lang['BillsGetSchet'] = 'Get invoice';
 
-$_lang['TicketsFileAttachFileBadType'] = 'invalid file type';
-$_lang['TicketsAttachFilesAllowed'] = 'Allowed file types';
+$_lang['TicketsFileAttachFileBadType'] = 'noto`gri fayl kengaytmasi';
+$_lang['TicketsAttachFilesAllowed'] = 'Ruxsat etilgan fayllar';
 
-$_lang['TicketsNoSubject'] = 'No subject';
+$_lang['TicketsNoSubject'] = 'Mavzusiz';
 
-$_lang['ErrorNoOrdersMakeOrder'] = 'You have no orders. Make an order?';
+$_lang['ErrorNoOrdersMakeOrder'] = 'Buyurtma mavjud emas. Buyurtma qilasizmi?';
 
 #####################################################################################
 ##################### v2.2.8
