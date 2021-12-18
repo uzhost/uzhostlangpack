@@ -2788,4 +2788,109 @@ $_lang['payExcodeCurrencyError'] = 'Kupon qabul qilindi, lekin ushbu valyuta kup
 $_lang['payExcodeToBalanceSuccess'] = 'Kupon qiymati, to`lov miqdoridan kam. Mablag`lar ichki balansga o`tkazildi.';
 $_lang['payExcodeLeftToBalanceSuccess'] = 'Kupon qiymati, to`lov miqdoridan ko`p. Pul mablag`lari qoldig`i ichki balansga kiritildi.';
 
+#####################################################################################
+##################### v2.2.7
+#####################################################################################
+
+$_lang['OrdersAccessIP'] = 'IP-address';
+
+$_lang['FilterOrdersType'] = 'Order type';
+$_lang['FilterStatus'] = 'Status';
+$_lang['FilterGroup'] = 'Group';
+$_lang['FilterPayType'] = 'Payment method';
+$_lang['FilterBillsType'] = 'For what';
+$_lang['datePayedPeriod'] = 'Payment period';
+$_lang['datePayedStart'] = 'Beginning of period';
+$_lang['datePayedEnd'] = 'End of period';
+
+$_lang['MoneyFlowTitle'] = 'Balance';
+$_lang['MoneyFlowOperation'] = 'Operation';
+$_lang['MoneyFlowIn'] = 'Arrival';
+$_lang['MoneyFlowOut'] = 'Expenditure';
+$_lang['MoneyFlowBalance'] = 'Balance';
+
+$_lang['BillsAttachWithByAdminError'] = 'It is forbidden to combine invoices for services with invoices issued by the administrator.';
+
+$_lang['ClientTemplate'] = 'Design';
+$_lang['ClientDefaultTemplate'] = 'Default design';
+
+$_lang['PayGotoQRCodeRu'] = 'Attention! To pay using a QR code, your phone must be equipped with a camera and you must have a banking or other payment application installed. <BR> <BR> 1. Launch the application, select payment by QR code and point your phone camera at the QR code (note that the rectangular window in the application must match the barcode). As soon as the code is considered, the next step will appear on the screen. <BR> 2. Indicate the card or account from which you will pay, check the correctness of the amount and the beneficiary and confirm the transaction. <BR> 3. Upon receipt of funds to our bank account, the payment will be credited and you will receive a payment notification by email.';
+
+$_lang['OrderSokraschenieHours'] = 'hr';
+$_lang['OrderSokraschenieMinutes'] = 'min';
+
+$_lang['FakturaComission'] = 'Payment system commission';
+
+$_lang['FakturaReceiptType'][1] = 'Arrival';
+$_lang['FakturaReceiptType'][2] = 'Refund';
+$_lang['FakturaReceiptCalculationMethodBalance'] = 'Prepayment';
+$_lang['FakturaReceiptCalculationMethodFull'] = 'Full payment';
+$_lang['FakturaReceiptPaymentData'][1] = 'In cash';
+$_lang['FakturaReceiptPaymentData'][2] = 'Electronic';
+$_lang['FakturaReceiptPaymentData'][3] = 'Prepayment';
+
+$_lang['BillsGetFakturaReceipt'] = 'Get a cashier`s receipt';
+$_lang['BillsGetSchet'] = 'Get invoice';
+
+$_lang['TicketsFileAttachFileBadType'] = 'invalid file type';
+$_lang['TicketsAttachFilesAllowed'] = 'Allowed file types';
+
+$_lang['TicketsNoSubject'] = 'No subject';
+
+$_lang['ErrorNoOrdersMakeOrder'] = 'You have no orders. Make an order?';
+
+#####################################################################################
+##################### v2.2.8
+#####################################################################################
+
+$_lang['BillsRefund'] = 'refund';
+$_lang['BillsRefundMethodValues']['balance'] = 'internal balance';
+$_lang['BillsRefundMethodValues']['hands'] = 'by hand';
+$_lang['FakturaRefund'] = 'Refund for invoice';
+$_lang['BillsGetFakturaReceiptRefund'] = 'Get a cashier`s receipt (refund)';
+
+$_lang['PayMonobankKomission'] = '<B>Warning!</b> Payment will be made as a transfer to the card. Your bank may charge an additional commission if credit funds are used for payment.';
+$_lang['PayMaxSumm'] = 'The maximum invoice amount for payment in this way is';
+$_lang['PayMaxSummBalanceComment'] = 'You can top up the balance in separate payments not exceeding this amount, and then pay this invoice.';
+
+$_lang['ScrollUp'] = 'Up (press again to stop)';
+$_lang['ScrollDown'] = 'Down (press again to stop)';
+
+$_lang['OrdersCancelOrder'] = 'Cancel order';
+$_lang['OrdersCancelRestoreOrder'] = 'Restore order';
+$_lang['OrdersCancelRestoreOrderAlert'] = 'Are you sure you want to restore the order?';
+
+$_lang['Reason'] = 'Reason';
+
+$_lang['CancelTitle'] = 'Order cancelation';
+$_lang['CancelTitleDomain'] = 'Domain cancelation';
+$_lang['CancelTitleShop'] = 'Product cancelation';
+$_lang['CancelErrorNoReason'] = 'Reason of cancelation not specified.';
+$_lang['CancelSuccess'] = 'Order successfully canceled.';
+$_lang['CancelRestoreSuccess'] = 'Order successfully restored.';
+
+#####################################################################################
+##################### v2.2.9
+#####################################################################################
+
+$_lang['OrdersPlaylistNicerestreamer1'] = '-- [MPEGTS] --';
+$_lang['OrdersPlaylistNicerestreamer2'] = '-- [HLS] --';
+$_lang['OrdersPlaylistNicerestreamer3'] = '-- [Enigma2] --';
+$_lang['OrdersPlaylistNicerestreamer4'] = '-- [SIPTV] --';
+$_lang['OrdersPlaylistNicerestreamer5'] = '-- [SIPTV HLS] --';
+
+$_lang['AllowedOnlyFor'] = 'Available only for';
+$_lang['ProfileErrorProfileTypeNotAllowedForCountry'] = 'This profile type is not available for the specified country.';
+
+$_lang['FilterPayer'] = 'Payer';
+$_lang['FilterPayerNoPayer'] = 'Payer not specified';
+
+$_lang['DownloadPdf'] = 'Download PDF';
+
+$_lang['OrdersManageLicenseNoNewProjectsWarning'] = 'Attention! In this way, it is allowed to change only the main domain of the license, as well as add subdomains of the main domain and its mirrors to the license. It is strictly forbidden to add separate/different projects to the license - this requires the purchase of a separate license! In case of violation of this requirement, the license will be blocked.';
+
+$_lang['WhoisTransferDomain'] = 'domain transfer';
+
+$_lang['ErrorRegistrationDisabled'] = 'Sorry, customer registration is temporarily disabled.';
+
 ?>
