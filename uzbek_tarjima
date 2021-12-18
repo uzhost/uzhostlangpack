@@ -13,7 +13,6 @@
 ######################################################################################
 #                                                                                    #
 #               Translated by BestDC.org <shmakhammadzhanov@gmail.com>               #
-#               Edited by Uzhost.net https://t.me/MrShahzodbek                       #
 #                                                                                    #
 ######################################################################################
 
@@ -28,12 +27,12 @@ $_lang['No'] = 'yo`q';
 $_lang['Pages'] = 'Sahifalar:';
 
 $_lang['Prev'] = 'Orqaga';
-$_lang['Next'] = 'Keyingi qadam';
+$_lang['Next'] = 'Oldinga';
 $_lang['Change'] = 'O`zgartirish';
 $_lang['Send'] = 'Jo`natish';
 $_lang['Save'] = 'Saqlash';
 $_lang['Order'] = 'Buyurtma qilish';
-$_lang['Pay'] = 'To`lov qilish';
+$_lang['Pay'] = 'To`lov qilih';
 $_lang['Add'] = 'Qo`shish';
 
 $_lang['Hosting'] = 'Hosting';
@@ -78,7 +77,7 @@ $_lang['CaptchaObnovit'] = 'tasvirni yangilash';
 $_lang['payKvitanciya'] = 'Jismoniy shaxslar uchun kvitansiya';
 $_lang['paySchet'] = 'Yuridik shaxslar uchun hisob';
 $_lang['payPartner'] = 'Hamkor balans';
-$_lang['payBalance'] = 'Saytdagi balans';
+$_lang['payBalance'] = 'Ichki balansi';
 
 $_lang['ErrorGetCurrentCurrency'] = 'Sayt pul birligini olib bo`lmadi.';
 $_lang['ErrorNoLogin'] = 'Login ko`rsatilmagan.';
@@ -95,7 +94,7 @@ $_lang['ErrorBadId'] = 'Noto`g`ri identifikator.';
 $_lang['OrderType']['hosting'] = 'Hosting';
 $_lang['OrderType']['reseller'] = 'Sotish';
 $_lang['OrderType']['vds'] = 'VPS/VDS';
-$_lang['OrderType']['dedicated'] = 'Alohida server';
+$_lang['OrderType']['dedicated'] = 'Tanlangan server';
 $_lang['OrderType']['vpn'] = 'VPN';
 $_lang['OrderType']['ssh'] = 'SSH';
 
@@ -194,9 +193,7 @@ $_lang['ProfileAddress'] = 'Manzil';
 $_lang['ProfileAddressComment'] = 'Misol: Saratov ko`chasi,5-uy, 34-xonadon; Qrim ko`chasi, 172-uy (xususiy uy); Amir temur ko`chasi, 2-uy, 4-ofis';
 $_lang['ProfileContactInfo'] = 'Bog`lanish uchun ma`lumot';
 $_lang['ProfilePhone'] = 'Telefon raqami';
-$_lang['ProfilePhoneComment'] = 'Telefonraqami xalqaro kod bilan; xalqaro kod, shahar kodi va mahalliy raqam probel bilan ajratiladi. Qavs va chiziqcha ishlatilmaydi.<BR>Misol: +7 495 8102233';
 $_lang['ProfileFax'] = 'Faks';
-$_lang['ProfileFaxComment'] = 'Faks xalqaro kod bilan; xalqaro kod, shahar kodi va mahalliy raqam probel bilan ajratiladi. Qavs va chiziqcha ishlatilmaydi.<BR>Misol: +7 495 8102233';
 $_lang['ProfileEmail'] = 'Email';
 $_lang['ProfileIcq'] = 'Icq';
 $_lang['ProfileDopInfo'] = 'Qo`shimcha ma`lumotlar';
@@ -521,7 +518,7 @@ $_lang['CatalogKeyWords'] = 'Kalit so`zlar';
 $_lang['CatalogViaComma'] = 'vergul orqali ajratilgan';
 $_lang['CatalogName'] = 'Sizning ismingiz';
 $_lang['CatalogEmail'] = 'Manba Emaili';
-$_lang['CatalogEmailComment'] = 'unga ro`yxatdan o`tishni tasdiqlash xabari yuboriladi va u spam bo`lib qolishi mumkin, shuning uchun <a class=rootlink href="http://passport.yandex.ru/passport?mode=register&msg=mail&retpath=http://mail.yandex.ru"></a> yandex.ruda vashdomenRu@yandex.ru ko`rinishda alohida manzilda ro`yxatdan o`tishni tavsiya qilamiz (faqatgina lotin harflari va raqamlaridan foydalanib, nuqtalar, tire va pocherkivaniyasiz), ushbu pochta sozlamalarida sizning odatiy manzilingizni havola berishni sozlash mumkin, agar pochta spam yoqilgan bo`lsa -  siz uni har doim o`chirish imkoniga egasiz, ammo buning uchun siz ma`lumotlar har doim keladigan mavjud pochta qutisini ko`rsatishingiz kerak bo`ladi!';
+$_lang['CatalogEmailComment'] = 'unga ro`yxatdan o`tishni tasdiqlash xabari yuboriladi va u spam bo`lib qolishi mumkin, shuning uchun emaili, ushbu pochta sozlamalarida sizning odatiy manzilingizni havola berishni sozlash mumkin, agar pochta spam yoqilgan bo`lsa -  siz uni har doim o`chirish imkoniga egasiz, ammo buning uchun siz ma`lumotlar har doim keladigan mavjud pochta qutisini ko`rsatishingiz kerak bo`ladi!';
 $_lang['CatalogPassword'] = 'Katalog uchun parol';
 $_lang['CatalogPasswordComment'] = '(Lotin harflari) optimal 8ta belgi';
 $_lang['CatalogBannerUrl'] = 'Sayt banneri URLsi (88x31)';
@@ -1232,191 +1229,6 @@ $_lang['FundsErrorCoupon'] = 'Siz ushbu kupondan foydalana olmaysiz.';
 $_lang['OrderPromoCode'] = 'Promo-kod (chegirma)';
 $_lang['OrderSkidkaByPromo'] = 'Promo-kod bo`yicha chegirma';
 
-$_lang['Oblast']['UA'][1] = 'Qrim Avtonom Respublikasi';
-$_lang['Oblast']['UA'][2] = 'Vinnitsa vil.';
-$_lang['Oblast']['UA'][3] = 'Volinsk vil.';
-$_lang['Oblast']['UA'][4] = 'Dnepropetrovsk vil.';
-$_lang['Oblast']['UA'][5] = 'Donetsk vil.';
-$_lang['Oblast']['UA'][6] = 'Jitomir vil.';
-$_lang['Oblast']['UA'][7] = 'Zakarpatsk vil.';
-$_lang['Oblast']['UA'][8] = 'Zaparoj vil.';
-$_lang['Oblast']['UA'][9] = 'Ivan-Frankovsk vil.';
-$_lang['Oblast']['UA'][10] = 'Kiyev vil.';
-$_lang['Oblast']['UA'][11] = 'Kirovograd vil.';
-$_lang['Oblast']['UA'][12] = 'Lugansk vil.';
-$_lang['Oblast']['UA'][13] = 'Lvov vil.';
-$_lang['Oblast']['UA'][14] = 'Nikolayev vil.';
-$_lang['Oblast']['UA'][15] = 'Odessa vil.';
-$_lang['Oblast']['UA'][16] = 'Poltava vil.';
-$_lang['Oblast']['UA'][17] = 'Roven vil.';
-$_lang['Oblast']['UA'][18] = 'Sumsk vil.';
-$_lang['Oblast']['UA'][19] = 'Termopil vil.';
-$_lang['Oblast']['UA'][20] = 'Xarkov vil.';
-$_lang['Oblast']['UA'][21] = 'Xerson vil.';
-$_lang['Oblast']['UA'][22] = 'Xmelnitskiy vil.';
-$_lang['Oblast']['UA'][23] = 'Cherkasskiy vil.';
-$_lang['Oblast']['UA'][24] = 'Chernigovsk vil.';
-$_lang['Oblast']['UA'][25] = 'Chernovisk vil.';
-
-$_lang['Oblast']['RU'][1] = 'Odigeya';
-$_lang['Oblast']['RU'][2] = 'Oltoy';
-$_lang['Oblast']['RU'][3] = 'Boshqirdiston';
-$_lang['Oblast']['RU'][4] = 'Buryatiya';
-$_lang['Oblast']['RU'][5] = 'Dog`iston';
-$_lang['Oblast']['RU'][6] = 'Ingushetiya';
-$_lang['Oblast']['RU'][7] = 'Karabdino-Balqoriya';
-$_lang['Oblast']['RU'][8] = 'Qalmiq';
-$_lang['Oblast']['RU'][9] = 'Karachayevo-Cherkesiya';
-$_lang['Oblast']['RU'][10] = 'Kareliya';
-$_lang['Oblast']['RU'][11] = 'Komi';
-$_lang['Oblast']['RU'][12] = 'Mariy-El';
-$_lang['Oblast']['RU'][13] = 'Mordoviya';
-$_lang['Oblast']['RU'][14] = 'Saxa';
-$_lang['Oblast']['RU'][15] = 'Shimoliy Osetiya-Alaniya';
-$_lang['Oblast']['RU'][16] = 'Tatariston';
-$_lang['Oblast']['RU'][17] = 'Tiva';
-$_lang['Oblast']['RU'][18] = 'Udmurtiya';
-$_lang['Oblast']['RU'][19] = 'Xakasiya';
-$_lang['Oblast']['RU'][20] = 'Chechiniston';
-$_lang['Oblast']['RU'][21] = 'Chuvashiya';
-$_lang['Oblast']['RU'][22] = 'Oltoy o`lkasi';
-$_lang['Oblast']['RU'][23] = 'Baykal o`lkasi';
-$_lang['Oblast']['RU'][24] = 'Kamchatka o`lkasi';
-$_lang['Oblast']['RU'][25] = 'Krasnodar o`lkasi';
-$_lang['Oblast']['RU'][26] = 'Krasnoyarsk o`lkasi';
-$_lang['Oblast']['RU'][27] = 'Perm o`lkasi';
-$_lang['Oblast']['RU'][28] = 'Primore o`lkasi';
-$_lang['Oblast']['RU'][29] = 'Stavropolsk o`lkasi';
-$_lang['Oblast']['RU'][30] = 'Xabarovsk o`lkasi';
-$_lang['Oblast']['RU'][31] = 'Nenesks Avtonom viloyati';
-$_lang['Oblast']['RU'][32] = 'Xanti-Mansi Avtonom viloyati';
-$_lang['Oblast']['RU'][33] = 'Chukot Avtonom o`lkasi';
-$_lang['Oblast']['RU'][34] = 'Yamalo-Nenesks Avtonom viloyati';
-$_lang['Oblast']['RU'][35] = 'Amur vil.';
-$_lang['Oblast']['RU'][36] = 'Arxangelsk vil.';
-$_lang['Oblast']['RU'][37] = 'Astraxan vil.';
-$_lang['Oblast']['RU'][38] = 'Belgorod vil.';
-$_lang['Oblast']['RU'][39] = 'Bryansk vil.';
-$_lang['Oblast']['RU'][40] = 'Vladimir vil.';
-$_lang['Oblast']['RU'][41] = 'Volgograd vil.';
-$_lang['Oblast']['RU'][42] = 'Vologod vil.';
-$_lang['Oblast']['RU'][43] = 'Voronej vil.';
-$_lang['Oblast']['RU'][44] = 'Yahudiy avtonom vil.';
-$_lang['Oblast']['RU'][45] = 'Ivanovo vil.';
-$_lang['Oblast']['RU'][46] = 'Irkutsk vil.';
-$_lang['Oblast']['RU'][47] = 'Kaliningrad vil.';
-$_lang['Oblast']['RU'][48] = 'Kaluga vil.';
-$_lang['Oblast']['RU'][49] = 'Kemerova vil.';
-$_lang['Oblast']['RU'][50] = 'Kirov vil.';
-$_lang['Oblast']['RU'][51] = 'Kostroma vil.';
-$_lang['Oblast']['RU'][52] = 'Kurgansk vil.';
-$_lang['Oblast']['RU'][53] = 'Kursk vil.';
-$_lang['Oblast']['RU'][54] = 'Leningrad vil.';
-$_lang['Oblast']['RU'][55] = 'Lipesk vil.';
-$_lang['Oblast']['RU'][56] = 'Magadansk vil.';
-$_lang['Oblast']['RU'][57] = 'Moskva';
-$_lang['Oblast']['RU'][58] = 'Moskva vil.';
-$_lang['Oblast']['RU'][59] = 'Murmansk vil.';
-$_lang['Oblast']['RU'][60] = 'Nijegorod vil.';
-$_lang['Oblast']['RU'][61] = 'Novgorod vil.';
-$_lang['Oblast']['RU'][62] = 'Novosibirsk vil.';
-$_lang['Oblast']['RU'][63] = 'Omsk vil.';
-$_lang['Oblast']['RU'][64] = 'Orenburg vil.';
-$_lang['Oblast']['RU'][65] = 'Orlov vil.';
-$_lang['Oblast']['RU'][66] = 'Penza vil.';
-$_lang['Oblast']['RU'][67] = 'Pskov vil.';
-$_lang['Oblast']['RU'][68] = 'Rostov vil.';
-$_lang['Oblast']['RU'][69] = 'Ryazan vil.';
-$_lang['Oblast']['RU'][70] = 'Samara vil.';
-$_lang['Oblast']['RU'][71] = 'Saratov vil.';
-$_lang['Oblast']['RU'][72] = 'Saxalin vil.';
-$_lang['Oblast']['RU'][73] = 'Sverdlovsk vil.';
-$_lang['Oblast']['RU'][74] = 'Smolenks vil.';
-$_lang['Oblast']['RU'][75] = 'Tambovsk vil.';
-$_lang['Oblast']['RU'][76] = 'Tversk vil.';
-$_lang['Oblast']['RU'][77] = 'Tomsk vil.';
-$_lang['Oblast']['RU'][78] = 'Tulsk vil.';
-$_lang['Oblast']['RU'][79] = 'Tyumen vil.';
-$_lang['Oblast']['RU'][80] = 'Ulyanovsk vil.';
-$_lang['Oblast']['RU'][81] = 'Chelyabinsk vil.';
-$_lang['Oblast']['RU'][82] = 'Yaroslavl vil.';
-
-$_lang['Oblast']['BY'][1] = 'Brest vil.';
-$_lang['Oblast']['BY'][2] = 'Vitebsk vil.';
-$_lang['Oblast']['BY'][3] = 'Gomelsk vil.';
-$_lang['Oblast']['BY'][4] = 'Grodnensl vil.';
-$_lang['Oblast']['BY'][5] = 'Minsk vil.';
-$_lang['Oblast']['BY'][6] = 'Minsk (город)';
-$_lang['Oblast']['BY'][7] = 'Mogilevsk vil.';
-
-$_lang['Oblast']['KZ'][1] = 'Akmolinsk vil.';
-$_lang['Oblast']['KZ'][2] = 'Aktobe vil.';
-$_lang['Oblast']['KZ'][3] = 'Almata vil.';
-$_lang['Oblast']['KZ'][4] = 'Atirau vil.';
-$_lang['Oblast']['KZ'][5] = 'Sharqiy-Qozog`iston vil.';
-$_lang['Oblast']['KZ'][6] = 'Jambil viloyati';
-$_lang['Oblast']['KZ'][7] = 'G`rbiy-Qozog`iston vil.';
-$_lang['Oblast']['KZ'][8] = 'Qarag`anda vil.';
-$_lang['Oblast']['KZ'][9] = 'Kostanay vil.';
-$_lang['Oblast']['KZ'][10] = 'Qizilo`rda vil.';
-$_lang['Oblast']['KZ'][11] = 'Mangistau vil.';
-$_lang['Oblast']['KZ'][12] = 'Pavlodar vil.';
-$_lang['Oblast']['KZ'][13] = 'Shimoliy Qozog`iston vil.';
-$_lang['Oblast']['KZ'][14] = 'Janubiy Qozog`iston vil.';
-
-$_lang['Oblast']['TJ'][1] = 'Dushanbe';
-$_lang['Oblast']['TJ'][2] = 'Tog`li Badaxshaon Avtonom viloyati';
-$_lang['Oblast']['TJ'][3] = 'So`g`d vil.';
-$_lang['Oblast']['TJ'][4] = 'Xatlon vil.';
-
-$_lang['Oblast']['JP'][1] = 'Aichi';
-$_lang['Oblast']['JP'][2] = 'Akita';
-$_lang['Oblast']['JP'][3] = 'Aomori';
-$_lang['Oblast']['JP'][4] = 'Chiba';
-$_lang['Oblast']['JP'][5] = 'Ehime';
-$_lang['Oblast']['JP'][6] = 'Fukui';
-$_lang['Oblast']['JP'][7] = 'Fukuoka';
-$_lang['Oblast']['JP'][8] = 'Fukushima';
-$_lang['Oblast']['JP'][9] = 'Gifu';
-$_lang['Oblast']['JP'][10] = 'Gunma';
-$_lang['Oblast']['JP'][11] = 'Hiroshima';
-$_lang['Oblast']['JP'][12] = 'Hokkaido';
-$_lang['Oblast']['JP'][13] = 'Hyogo';
-$_lang['Oblast']['JP'][14] = 'Ibaraki';
-$_lang['Oblast']['JP'][15] = 'Ishikawa';
-$_lang['Oblast']['JP'][16] = 'Iwate';
-$_lang['Oblast']['JP'][17] = 'Kagawa';
-$_lang['Oblast']['JP'][18] = 'Kagoshima';
-$_lang['Oblast']['JP'][19] = 'Kanagawa';
-$_lang['Oblast']['JP'][20] = 'Kochi';
-$_lang['Oblast']['JP'][21] = 'Kumamoto';
-$_lang['Oblast']['JP'][22] = 'Kyoto';
-$_lang['Oblast']['JP'][23] = 'Mie';
-$_lang['Oblast']['JP'][24] = 'Miyagi';
-$_lang['Oblast']['JP'][25] = 'Miyazaki';
-$_lang['Oblast']['JP'][26] = 'Nagano';
-$_lang['Oblast']['JP'][27] = 'Nagasaki';
-$_lang['Oblast']['JP'][28] = 'Nara';
-$_lang['Oblast']['JP'][29] = 'Niigata';
-$_lang['Oblast']['JP'][30] = 'Oita';
-$_lang['Oblast']['JP'][31] = 'Okayama';
-$_lang['Oblast']['JP'][32] = 'Okinawa';
-$_lang['Oblast']['JP'][33] = 'Osaka';
-$_lang['Oblast']['JP'][34] = 'Saga';
-$_lang['Oblast']['JP'][35] = 'Shiga';
-$_lang['Oblast']['JP'][36] = 'Shimane';
-$_lang['Oblast']['JP'][37] = 'Saitama';
-$_lang['Oblast']['JP'][38] = 'Shizuoka';
-$_lang['Oblast']['JP'][39] = 'Tochigi';
-$_lang['Oblast']['JP'][40] = 'Tokushima';
-$_lang['Oblast']['JP'][41] = 'Tokyo';
-$_lang['Oblast']['JP'][42] = 'Tottori';
-$_lang['Oblast']['JP'][43] = 'Toyama';
-$_lang['Oblast']['JP'][44] = 'Wakayama';
-$_lang['Oblast']['JP'][45] = 'Yamagata';
-$_lang['Oblast']['JP'][46] = 'Yamaguchi';
-$_lang['Oblast']['JP'][47] = 'Yamanashi';
-
 $_lang['OrderServerName'] = 'Serverning nomi (hostname)';
 $_lang['OrderAdminPassword'] = 'Serverni boshqarish uchun parol';
 $_lang['OrderErrorServerName'] = 'Serverning nomi ko`rsatilmagan.';
@@ -1617,10 +1429,7 @@ $_lang['OrderForSlot'] = 'slot uchun';
 ##################### v1.7.3
 #####################################################################################
 
-$_lang['ProfilePhoneCountryCodeComment'] = 'Davlatning xalqaro kodi<BR>Misol, Rossiya uchun: +7<BR>Misol, Ukraina uchun: +380';
-$_lang['ProfilePhoneCodeComment'] = 'Shahar kodi<BR>Misol, Moskva uchun: 495<BR>Misol, Kiyev uchun: 44';
-$_lang['ProfilePhoneNumberComment'] = 'Telefon raqami<BR>Misol: 8102233';
-$_lang['ProfileFaxNumberComment'] = 'Faks raqami<BR>Misol: 8102233';
+$_lang['ProfilePhoneCountryCodeComment'] = 'Davlatning xalqaro kodi<BR><BR>Misol, Rossiya uchun: +7<BR>Misol, Ukraina uchun: +380';
 $_lang['OrderErrorNoSlots'] = 'Slotlar miqdori ko`rsatilmagan.';
 $_lang['OrderErrorMinSlots'] = 'Slotlarning minimal miqdori ...dan kam bo`lishi mumkin emas';
 $_lang['OrderErrorMaxSlots'] = 'Slotlarning maksimal miqdori ...dan ko`p bo`lishi mumkin emas';
@@ -1890,7 +1699,7 @@ $_lang['VerificationNewCode'] = 'Yangi kodni olish';
 $_lang['ErrorVerificationCode'] = 'Noto`g`ri kod ko`rsatilgan.';
 $_lang['SettinsChangeSuccess'] = 'Sozlamalar muvaffaqiyatli o`zgartirildi.';
 $_lang['VerificationPass'] = 'tasdiqlash raqami';
-$_lang['VerificationInfo'] = 'Biz anonim foydalanuvchilarga xizmat ko`rsatmaymiz. Shuning uchun telefon raqamingizni tasdiqlash zarur. Tekshirish avtomatik rejimda amalga oshiriladi.';
+$_lang['VerificationInfo'] = 'Biz anonim foydalanuvchilarga xizmat ko`rsatmaymiz. Shuning uchun mobil telefon raqamingizni tasdiqlash zarur. Tekshirish avtomatik rejimda amalga oshiriladi.';
 $_lang['SettingsErrorYouCanWorkWithoutSettings'] = 'Diqqat! Siz sozlamalarda kerakli ma`lumotlarni to`ldirmasdan turib billinglar bilan ishlay olmaysiz.';
 $_lang['SettingsErrorFields'] = 'Maydonda xatolik';
 $_lang['OrderErrorMobileExists'] = 'Mobil telefon raqami allaqachon boshqa mijoz tomonidan ko`rsatilgan.';
@@ -2513,7 +2322,7 @@ $_lang['FQDN'] = 'FQDN';
 
 $_lang['ErrorAPIcode61'] = 'ТМ guvohnomasi raqami ko`rsatilmagan';
 
-$_lang['BillsBillNumSmall'] = 'hisob №';
+$_lang['BillsBillNumSmall'] = 'Hisob №';
 $_lang['BillsTarifUnknown'] = 'UNKNOWN';
 $_lang['BillsRenewAddons'] = 'Qo`shimcha xizmatlarni yangilash';
 $_lang['BillsPayFor'] = 'Xizmat uchun to`lov';
@@ -2578,7 +2387,7 @@ $_lang['ButtonFillSettings'] = 'Sozlamalarga o`tish';
 $_lang['SettingsLogin'] = 'Billingga kirish uchun login';
 $_lang['OrderErrorLoginRegularExp'] = 'Ko`rsatilgan logindan foydalanish taqiqlangan.';
 $_lang['SettingsLoginNeedChange'] = 'Login (billinga kirish uchun yangi login o`ylab topish kerak)';
-$_lang['payYandexPC'] = 'Yandex.Money hisobi bilan';
+$_lang['payYandexPC'] = 'YooMoney hisobi bilan';
 $_lang['payYandexAC'] = 'bank kartasi bilan';
 $_lang['TicketsName'] = 'Sizning ismingiz';
 $_lang['TicketsEmail'] = 'Sizning emailingiz';
@@ -2838,9 +2647,9 @@ $_lang['OrdersErrorCantReset'] = 'Siz ushbu buyurtmani qayta o`rnata olmaysiz.';
 $_lang['OrdersServerInfoServerIPv6'] = 'Serverning IPv6 manzili';
 $_lang['SokraschenieTB'] = 'TB';
 $_lang['TrafficOut'] = 'Trafik';
-$_lang['OrdersVncTitle'] = "VNC-konsol";
-$_lang['OrdersVncLink'] = "VNC-konsol";
-$_lang['OrdersGotoVncError'] = "VNCga ulanish uchun ma`lumotlar topilmadi.";
+$_lang['OrdersVncTitle'] = 'VNC-konsol';
+$_lang['OrdersVncLink'] = 'VNC-konsol';
+$_lang['OrdersGotoVncError'] = 'VNCga ulanish uchun ma`lumotlar topilmadi.';
 
 $_lang['PayPayer'] = 'To`lovchi';
 
@@ -2885,5 +2694,98 @@ $_lang['FormBrowseFile'] = 'Fayl tanlash';
 $_lang['OrderProfile'] = 'Profayl';
 
 $_lang['BillingMenuSearchDomain'] = 'Domenni tekshirish';
+
+#####################################################################################
+##################### v2.2.4
+#####################################################################################
+
+$_lang['OrdersAutoRenew'] = 'Avtomatik muddat uzaytirish';
+$_lang['AutoRenewTitle'] = 'Buyurtmani muddatini avtomatik uzaytirish';
+$_lang['AutoRenewTitleDomain'] = 'Domen muddatini avtomatik uzaytirish';
+$_lang['AutoRenewTitleShop'] = 'Tovar yoki buyurtma muddatini avtomatik uzaytirish';
+
+$_lang['OrdersToken'] = 'Token';
+$_lang['OrdersPlaylist'] = 'Pleylist';
+
+$_lang['OrderType']['iptv'] = 'IPTV';
+$_lang['FakturaHost']['iptv'] = 'IPTV tarif rejasi';
+$_lang['OrderTitleType']['iptv'] = 'IPTV';
+
+$_lang['OrdersDogovorPassport'] = 'pasport';
+$_lang['OrdersDogovorVidan'] = 'berilgan';
+
+#####################################################################################
+##################### v2.2.5
+#####################################################################################
+
+$_lang['PayMinSumm'] = 'Ushbu usul bilan hisob to`ldirish uchun minimal miqdor';
+
+$_lang['OrderErrorDomainNoWithTarif'] = 'Domen ushbu tarif rejalari bilan birga buyurtma berish mumkin emas.';
+
+$_lang['OrdersSelectedOrders'] = 'Belgilangan buyurtmalar';
+$_lang['BillsErrorNoRenewOrders'] = 'Buyurtmalar muddatini uzaytirish mumkin emas.';
+$_lang['OrdersErrorNoOrdersForRenew'] = 'Amal qilish muddatini uzaytirish uchun buyurtmalar mavjud emas.';
+$_lang['DomainsErrorNoDomainsForRenew'] = 'Amal qilish muddatini uzaytirish kerak bo`lgan domenlar mavjud emas';
+
+$_lang['Count'] = 'Miqdor';
+$_lang['OrderOrdersCount'] = 'Buyurtmalar soni';
+$_lang['OrderOrdersCountComment'] = 'Ko`rsatilgan miqdordagi buyurtmalar tuziladi.';
+
+$_lang['OrdersPlaylistMinistraTV'] = 'AURA / MAG / Android (konsol emulyatori) / SMART TV uchun portal manzili';
+$_lang['OrdersPlaylist2MinistraTV'] = 'Infomir-dan iOS / Android uchun StalkerTV-ning portal manzili';
+$_lang['OrdersPlaylist3MinistraTV'] = 'Aleks tomonidan Ott-Play ( forum.ott-play.com ) uchun portal manzili';
+
+$_lang['OrderStatusToExpire'] = 'yakunlanadi';
+$_lang['TicketStatusUnread'] = 'o`qilmagan';
+
+$_lang['OrdersPortalAddress'] = 'Portalning manzili';
+
+$_lang['ProfilePhoneNumberComment'] = 'Telefon raqam, shahar kodi bilan birga<BR><BR>Misol uchun Moskwa: 4950001122<BR>Misol uchun Kiyev: 440001122';
+$_lang['ProfileMobileNumberComment'] = 'Telefon raqam, operator kodi bilan birga<BR><BR>Misol uchun МТС Rossiya: 9160001122<BR>Misol uchun Lifecell Ukraina: 930001122';
+$_lang['ProfileFaxNumberComment'] = 'Faks raqami, shahar kodi bilan birga<BR><BR>Misol uchun Moskwa: 4950001122<BR>Misol uchun Kiyev: 440001122';
+
+$_lang['OrderDeleteTestReasonExpired'] = 'sinov muddati tugagan va buyurtma to`lanmagan';
+
+$_lang['dateStart'] = 'Boshlanish sanasi';
+$_lang['dateEnd'] = 'Tugash sanasi';
+
+#####################################################################################
+##################### v2.2.6
+#####################################################################################
+
+$_lang['EmailUpdateVerificationSent'] = 'Diqqat! Sizning asosiy elektron pochtagizga asosiy elektron pochtangizni o`zgartirishni tasdiqlash manzili yuborildi.. Iltimos, o`zgartirishni tasdiqlang!';
+$_lang['EmailAltUpdateVerificationSent'] = 'Diqqat! Sizning asosiy elektron pochtagizga alternativ elektron pochtangizni o`zgartirishni tasdiqlash manzili yuborildi.. Iltimos, o`zgartirishni tasdiqlang!';
+$_lang['SettingsEmailUpdatedSuccess'] = 'Asosiy elekton pochta o`zgartirildi.';
+$_lang['SettingsEmailAltUpdatedSuccess'] = 'Alternativ elekton pochta o`zgartirildi.';
+
+$_lang['OrderErrorLoginNotExists'] = 'Ushbu login bilan foydalanuvchi topilmadi.';
+$_lang['SettingsThirdlogin'] = 'Login uchun kirish huquqini ochish';
+$_lang['PartnerGrantedLogins'] = 'Ishonchli akkauntlar';
+$_lang['PartnerGotoBilling'] = 'kirish';
+
+$_lang['OrdersErrorNoReinstallForDedicIP'] = 'Qayta o`rnatish maxsus IP-ga ega buyurtmalar uchun qo`llab-quvvatlanmaydi.';
+$_lang['OrdersReinstallErrorSmall'] = 'Qayta sozlash amalga oshmadi.';
+
+$_lang['TwoFactorAuthTitle'] = 'Ikki faktorli avtorizatsiya';
+$_lang['SettingsTwoFactorAuth'] = 'Ikki faktorli avtorizatsiya';
+$_lang['SettingsTwoFactorAuthKey'] = 'Kalit';
+$_lang['GoogleAuthenticatorInstruction'] = 'Ikki faktorli avtorizatsiyani yoqish uchun Google Authenticator ilovasini yuklab oling, unga ko`rsatilgan kalit yordamida akkaunt qo`shing (akkaunt turi - vaqt bo`yicha) va keyin dasturda ko`rsatilgan kodni kiriting.';
+$_lang['TwoFactorAuthNotPassed'] = 'Tekshiruv o`tmadi.';
+$_lang['TwoFactorAuthEnableSuccess'] = 'Ikki faktorli avtorizatsiya muvaffaqiyatli yoqildi.';
+$_lang['TwoFactorAuthDisableSuccess'] = 'Ikki faktorli avtorizatsiya muvaffaqiyatli o`chirildi.';
+$_lang['ErrorTwoFactorAuthAlreadyEnabled'] = 'Ikki faktorli avtorizatsiya allaqachon yoqilgan.';
+$_lang['ErrorTwoFactorAuthNotEnabled'] = 'Ikki faktorli avtorizatsiya yoqilmagan.';
+$_lang['ErrorTwoFactorAuthEnableCant'] = 'Ikki faktorli avtorizatsiyani yoqib bo`lmadi.';
+$_lang['ErrorTwoFactorAuthDisableCant'] = 'Ikki faktorli avtorizatsiyani o`chirib bo`lmadi.';
+
+$_lang['Enable'] = 'Yoqish';
+$_lang['Disable'] = 'O`chirish';
+
+$_lang['OrderErrorNoUsertype'] = 'Tizimga kiring yoki ro`yxatdan o`ting.';
+
+$_lang['payExcodeComment'] = 'Hisobni to`lash uchun, quyidagi maydonga EX-CODE kupon kodini kiriting.<BR><BR><B>Diqqat!</B> Agar kupon qiymati to`lov summasi miqdoridan kam bo`lsa, mablag` ichki balansga o`tkaziladi. Agar kupon qiymati to`lov summasidan katta bo`lsa, qoldiq ichki balansga o`tkaziladi.';
+$_lang['payExcodeCurrencyError'] = 'Kupon qabul qilindi, lekin ushbu valyuta kuponini bizning tizim qo`llamaydi. Mablag`larni kiritish uchun qo`llab-quvvatlash xizmatiga murojaat qiling..';
+$_lang['payExcodeToBalanceSuccess'] = 'Kupon qiymati, to`lov miqdoridan kam. Mablag`lar ichki balansga o`tkazildi.';
+$_lang['payExcodeLeftToBalanceSuccess'] = 'Kupon qiymati, to`lov miqdoridan ko`p. Pul mablag`lari qoldig`i ichki balansga kiritildi.';
 
 ?>
