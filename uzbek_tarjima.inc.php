@@ -116,7 +116,7 @@ $_lang['monthR'][12] = 'dekabr';
 ##################### billing.php
 #####################################################################################
 
-$_lang['BillingTitle'] = 'Billing paneli';
+$_lang['BillingTitle'] = 'Billing panel';
 $_lang['BillingLoginOrEmail'] = 'Sizning login yoki parolingiz';
 $_lang['BillingLogin'] = 'Sizning loginingiz';
 $_lang['BillingPassword'] = 'Sizning parolingiz';
@@ -2591,13 +2591,13 @@ $_lang['ServicesErrorServiceNotFound'] = 'Server topilmadi';
 
 $_lang['BillingMenuProfiles'] = 'Profayllar';
 $_lang['ProfilesTitle'] = 'Profayllar';
-$_lang['ProfilesControl'] = 'Proyalni boshqarish';
+$_lang['ProfilesControl'] = 'Profaylni boshqarish';
 $_lang['ProfilesEditProfile'] = 'Profayl ma`lumotlarini o`zgartirish';
 $_lang['ProfilesAdditional'] = 'Qo`shimchalar';
 
-$_lang['TotalRecords'] = 'Всего записей';
-$_lang['RecordsOnPage'] = 'записей на странице';
-$_lang['Search'] = 'Найти';
+$_lang['TotalRecords'] = 'Jami ma`lumotlar';
+$_lang['RecordsOnPage'] = 'sahifadagi ma`lumotlar';
+$_lang['Search'] = 'Izlash';
 
 #####################################################################################
 ##################### v2.2.0
