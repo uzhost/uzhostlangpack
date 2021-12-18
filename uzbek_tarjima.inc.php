@@ -12,7 +12,7 @@
 # so`ng yo`qoladi!                                                                   #
 ######################################################################################
 #                                                                                    #
-#               Translated by BestDC.org <shmakhammadzhanov@gmail.com>               #
+#               Translated by MrShahzodbek < https://uzhost.net >                    #
 #                                                                                    #
 ######################################################################################
 
@@ -32,7 +32,7 @@ $_lang['Change'] = 'O`zgartirish';
 $_lang['Send'] = 'Jo`natish';
 $_lang['Save'] = 'Saqlash';
 $_lang['Order'] = 'Buyurtma qilish';
-$_lang['Pay'] = 'To`lov qilih';
+$_lang['Pay'] = 'To`lov qilish';
 $_lang['Add'] = 'Qo`shish';
 
 $_lang['Hosting'] = 'Hosting';
@@ -88,13 +88,13 @@ $_lang['ErrorPasswordNoConfirm'] = 'Parol tasdiqlanmadi.';
 $_lang['ErrorPasswordLength'] = 'Parol uzunligi 6 belgidan kam bo`lmasligi zarur.';
 $_lang['ErrorPasswordConfirm'] = 'Parol noto`g`ri tasdiqlandi.';
 $_lang['ErrorBadLoginOrPassword'] = 'Parol yoki login noto`g`ri kiritildi';
-$_lang['ErrorWrongCaptcha'] = 'Himoya kodi noto`g`ri ko`rsatild.';
+$_lang['ErrorWrongCaptcha'] = 'Himoya kodi noto`g`ri ko`rsatildi.';
 $_lang['ErrorBadId'] = 'Noto`g`ri identifikator.';
 
 $_lang['OrderType']['hosting'] = 'Hosting';
 $_lang['OrderType']['reseller'] = 'Sotish';
 $_lang['OrderType']['vds'] = 'VPS/VDS';
-$_lang['OrderType']['dedicated'] = 'Tanlangan server';
+$_lang['OrderType']['dedicated'] = 'Alohida server';
 $_lang['OrderType']['vpn'] = 'VPN';
 $_lang['OrderType']['ssh'] = 'SSH';
 
@@ -127,7 +127,7 @@ $_lang['BillingMenu'] = 'Menyu';
 $_lang['BillingMenuBills'] = 'Hisoblar';
 $_lang['BillingMenuOrders'] = 'Buyurtmalar';
 $_lang['BillingMenuDomains'] = 'Domenlar';
-$_lang['BillingMenuProfile'] = 'Ptofayl';
+$_lang['BillingMenuProfile'] = 'Profayl';
 $_lang['BillingMenuTickets'] = 'Tiketlar';
 $_lang['BillingMenuPartner'] = 'Hamkor';
 $_lang['BillingMenuCatalog'] = 'Katalog';
@@ -147,9 +147,9 @@ $_lang['ProfileTitle'] = 'Profayl';
 $_lang['ProfileChangeSuccess'] = 'Profayl muvaffaqiyatli o`zgartirildi.';
 $_lang['ProfileNeedFromReg'] = 'Buyurtma muvaffaqiyatli amalga oshirildi.<BR>Keyingi ishlar uchun siz profaylni to`ldirishingiz lozim.';
 $_lang['ProfileFieldsForAllDomains'] = 'Domenlarni ro`yxatdan o`tkazish uchun (ruslardan tashqari) pasport ma`lumotlaridan tashqari barcha maydonlar to`ldirilishi zarur!';
-$_lang['ProfileFieldsForRuDomain'] = 'Rus domenlarini ro`yxatdan o`tkazish uchun pasport ma`lumotlari bilan birga barcha maydonlar to`ldirilishi zarur!';
-$_lang['ProfileOfOrg'] = 'Tashkilot profayli';
-$_lang['ProfileOfPrivatePerson'] = 'Jismoniy shaxs profayli';
+$_lang['ProfileFieldsForRuDomain'] = 'Ru domenlarini ro`yxatdan o`tkazish uchun pasport ma`lumotlari bilan birga barcha maydonlar to`ldirilishi zarur!';
+$_lang['ProfileOfOrg'] = 'Tashkilot hisobi';
+$_lang['ProfileOfPrivatePerson'] = 'Jismoniy shaxs hisobi';
 $_lang['ProfileContact'] = 'Jismoniy shaxs';
 $_lang['ProfileSurname'] = 'Familiya';
 $_lang['ProfileName'] = 'Ism';
@@ -164,7 +164,7 @@ $_lang['ProfilePassportVidan'] = 'Kim tomonidan berilgan';
 $_lang['ProfilePassportVidanComment'] = 'Pasportni beruvchi organning to`liq nomi.<BR>Misol: 48 Moskva shahri IIB';
 $_lang['ProfilePassportVidanData'] = 'Berilgan sana';
 $_lang['ProfileBirthDate'] = 'Tug`ilgan sanasi';
-$_lang['ProfileInn'] = 'INN';
+$_lang['ProfileInn'] = 'STIR';
 $_lang['ProfileInnComment'] = 'Soliq to`lovchining identifikatsiya raqami (INN).<BR>Misol: 789012345678';
 $_lang['ProfileOrgEng'] = 'Tashkilot (inglizcha)';
 $_lang['ProfileOrgEngComment'] = 'Tashkilotning lotin harflarida to`liq nomi.<BR>Misol: `ROGA I KOPYTA`, LTD.';
@@ -225,7 +225,7 @@ $_lang['OrdersAddonsOrder'] = 'Qo`shimcha xizmatlari buyurtma qilish';
 $_lang['OrdersNoAvailAddons'] = 'Qo`shimcha xizmatlar mavjud emas.';
 $_lang['OrdersDate'] = 'Sana';
 $_lang['OrdersDomain'] = 'Domen';
-$_lang['OrdersTarif'] = 'Tarish';
+$_lang['OrdersTarif'] = 'Tarif';
 $_lang['OrdersEnd'] = 'gacha to`langan';
 $_lang['OrdersLeftDays'] = 'Qolgan kunlar';
 $_lang['OrdersDeleteAlert'] = 'Buyurtma va unga tegishli barcha hisoblar o`chiriladi. Buyurtmani o`chirishga ishonchingiz komilmi?';
@@ -370,8 +370,8 @@ $_lang['RenewErrorNoSrok'] = 'Yangilash muddati ko`rsatilmagan.';
 ##################### billing.php :: partner
 #####################################################################################
 
-$_lang['PartnerTitle'] = 'Hamkor dastur';
-$_lang['PartnerMoneyOut'] = 'Hamkor balansda pul mablag`larini chiqarish:';
+$_lang['PartnerTitle'] = 'Hamkorlik dasturi';
+$_lang['PartnerMoneyOut'] = 'Hamkorlik hisobidagi pul mablag`larini chiqarish:';
 $_lang['PartnerMoneyOutSuccess'] = 'Pulni olish uchun so`rov administratsiyaga muvaffaqiyatli jo`natildi. O`tkazma bajarilishini kuting.';
 $_lang['PartnerPartnerSchet'] = 'Sizning hamkor balansingiz';
 $_lang['PartnerPartnerLink'] = 'Sizning hamkor havolangiz';
